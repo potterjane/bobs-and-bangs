@@ -1,45 +1,341 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">
+  <a href="" target="_blank"><img src="" alt=""/></a>
+</h1>
+<h2 align="center">
+<a href="" target="_blank"><img src="" alt="" ></a>
+</h2>
 
-Welcome USER_NAME,
+<div align="center"> 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[Bobs & Bangs]"(https://ajgreaves.github.io/picflip/)" is an 
+<br>
 
-## Gitpod Reminders
+[View the Bobs & Bangs page]"(https://ajgreaves.github.io/picflip/)"
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+</div>
 
-`python3 -m http.server`
+## Table of Contents
+1. [**UX**](#ux)
+    - [**Project Goals**](#project-goals)
+    - [**Developer and Business Goals**](#developer-and-Business-Goals)
+    - [**User Stories**](#user-stories)
+    - [**Design choices**](#design-choices)
+    - [**Wireframes**](#wireframes)
 
-A blue button should appear to click: *Make Public*,
+2. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-left-to-implement)
 
-Another blue button should appear to click: *Open Browser*.
+3. [**Technologies used**](#technologies-used)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+4. [**Testing**](#testing)
 
-A blue button should appear to click: *Make Public*,
+5. [**Deployment**](#deployment)
+    - [**How to run this project locally**](#how-to-run-this-project-locally)
 
-Another blue button should appear to click: *Open Browser*.
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Code**](#code)
+    - [**Acknowledgements**](#acknowledgements)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+7. [**Disclaimer**](#disclaimer)
 
-## Updates Since The Instructional Video
+## UX
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Project Goals
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The primary goal of PicFlip! is to provide a clean, intuitive and child friendly game to entertain and delight it's users.
+PicFlip! has two target audiences: Pre-school children and their parents. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### Player goals
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The central target audience for this game is pre-school children aged 1 to 5 years old.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Players goals are:
+- A fun game to play.
+- Child friendly controls.
+- Large buttons and clickable areas for young fingers to operate.
+- All game controls laid out together and in an intuitive way. 
+- Fun images and sounds. 
+- Visual and audio rewards while playing.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+PicFlip! is a great way to help players meet these needs because:
+- The planning and design process took all these needs into account before starting to build it. 
+- Controls are grouped together clearly.
+- Game controls are large, utilising icons and colours to communicate their purpose before any words that a child would not be able to read. 
+- PicFlip! includes audio and visual rewards as part of the game.
+- The overall feel of PicFLip! is fun and child-friendly.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Parental goals
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Parents of pre-school children have a large amount of say about what games their children are exposed to, 
+therefore parental needs must also be at the forefront of any project designed for children in this age group. 
 
---------
+Parent's goals are:
+- A game with child development value. In this case to improve their memory and spatial awareness.
+- Usability for the range of abilities in pre-school kids.
+- A visually appealing, well-functioning game. 
+- The ability for a parent to reset the stored player profile. 
+- A mute button.
 
-Happy coding!
+PicFlip! is a great way to help parents meet these needs because:
+- PicFlip! gives a child a fun environment in which to practice their memory skills. 
+- Game includes 3 levels of difficulty ranging from 8 to 16 cards.
+- It has been designed with user experience as a priority, not only for a child using it but also for a parent.
+- The game includes a reset data option, which is easy to find and operate by an adult who can read and do simple mathematics.
+
+#### Developer and Business Goals
+
+- Well thought out programming that prepares for a child's random and unpredictable use of PicFlip! 
+For example, that the game cannot be broken by clicking many areas quickly, or if it is restarted at an unexpected moment. 
+- A professional looking first dip into the world of using JavaScript, jQuery and Jasmine. 
+- A project the developer is excited to make a part of her portfolio. 
+
+#### User Stories
+
+As a player aged between 1-5 years old, I want:
+1. The ability to easily find and understand the controls for the game, so that I can operate them easily. 
+2. A large easy to press buttons and controls, so that my young fingers can use on all devices.
+3. Audio and/or visual feedback when I play the game, so that I know when I have clicked or not clicked something.
+4. The ability to choose from cards with my favourite children’s characters on, so that I am even more engaged in finding them in the game.
+5. Positive audio feedback when I complete a step in the game (for example when I find a matching pair of cards), because this increases my enjoyment from playing.
+6. Visual icons and images that I recognise, so that I understand when I have achieved something in the game. For example stars out of five, and a trophy for high score.
+7. The ability to see my old scores when I return to the game, so I can try to beat them.
+
+As a parent of a player, I want:
+1. Levels of difficulty for my child to choose from, so that they are engaged for longer and the game is useable for a wider age range.
+2. A visually and operationally appealing game, so that I also have a positive experience when using it with my child.
+3. The ability to delete a stored profile, so that I can reset the game for another go, or for another child. 
+4. The option to delete a profile to be easy for me to find, but not easy for a child who is randomly pressing buttons to access, so that a profile is not deleted by accident.
+5. A mute button to be included, so that the sounds can be switched off when they become annoying. (If only the actual child came with one of those too!).
+6. To know who made the game and how I can contact them. 
+
+### Design Choices
+
+The overall feel of the game is one that is designed for children to enjoy. The following design choices were made with this in mind:
+
+**Fonts**
+
+- The primary font **Fredoka One** was chosen because it resembles the simple letters used in products made for pre-school children. It's likeness to fridge magnets for children is nostalgic for parents as well. 
+
+- The secondary font **Bubblegum Sans** was chosen for its childlike qualities, while complementing the primary font nicely in style because it is more compact.
+
+**Icons**
+
+- All icons used were chosen for their obvious meaning and purpose so that they can be understood by everyone.
+
+**Colours**
+
+- The primary colour choices of dark and light blue for the logo, titles and text were chosen because they have a clean clear aspect while contrasting each other well.
+- Other colours used in the project were taken from the trophy image sourced, using a colour picker in Photoshop to make sure all colours used were consistent across the entire project.
+
+**Styling**
+
+- Cards and container boxes were given rounded corners to continue the child friendly theme, many real life memory cards for children have corners like this. 
+- Repeating the same rounded corner pattern throughout the page keeps consistency in design and maintains the feeling that all elements belong together. 
+
+**Backgrounds**
+
+- The background image of toy trains was chosen to give the feeling of playing the game in a child's playroom. 
+- Specifically chosen because it is a "flat-lay" - a photograph taken from directly above - this means the background complements the game without distracting from it.
+- The background images for the modals were chosen for their comic-book like qualities, adding a little positive emotional feedback at a level that appeals to a child. 
+
+**Card images**
+
+- Disney and Pixar characters were chosen for this game because they are recognised and loved by children. 
+Cars characters were specifically chosen because it is extremely popular with boys, 
+the Frozen characters because they are very popular with girls, 
+and the Toy Story Characters because they appeal to both girls and boys. 
+
+**Audio files**
+
+- To continue the feeling of a game made for children, clicking button sounds were added that are similar to the sounds a child might hear when operating a physical toy with buttons. 
+- The card flipping sounds and "bing" on a correct match were added to give positive feedback on use of the game. 
+- The sound of applauding children played on completing the game was chosen because it appeals most to children, and again fits within the theme of PicFlip!
+
+### Wireframes
+
+These wireframes were created using [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project. 
+
+- [User info modal](https://i.ibb.co/FWBy68Q/Create-profile.png)
+- [Game page](https://i.ibb.co/H2XtCW9/Game-page.png)
+- [Win pop-up](https://i.ibb.co/5809P3Q/Win-popup.png)
+
+## Features
+ 
+### Existing Features
+
+1. **Player info modal**
+    - On arriving at the page for the first time, this modal pops up to collect the players name and their choice of avatar image from the three available. 
+    - This modal is also activated if stored player data is reset. 
+    - The modal has been programmed to not close unless both the name has been filled out at an avatar has been chosen. Tooltips appear to guide the user to enter both.
+    - The default setting for modals that they can be closed if clicking on the modal background has also been disabled for this modal specifically.  
+
+<div align="center">
+<img src="https://i.ibb.co/NpXs3QC/user-info-modal.jpg" alt="Screenshot: User info modal" >
+</div>
+
+
+2. **Dashboard**
+    - The game dashboard contains the player info display, difficulty selection, character selection, info, mute and reset buttons. 
+    - On mobile devices a chevron arrow is displayed to tell the player to scroll downwards to the game board. 
+
+<div align="center">
+<img src="https://i.ibb.co/pwn3GFV/game-board.jpg" alt="Screenshot: Game board"><br>
+<img src="https://i.ibb.co/JFr93rH/mobile-view-dashboard.jpg" alt="Screenshot: dashboard mobile view" >
+</div>
+
+3. **Player info display**
+    - At the top of the dashboard the players name is displayed with their chosen avatar. 
+    - Underneath this is the display to show their highest score (out of 5 stars) for the currently selected difficulty level. 
+    - The star display changes if a different level is selected. 
+
+4. **Difficulty selection buttons**
+    - Players can select from three difficulty levels: Easy (8 cards), Medium (12 cards) and Hard (16 cards).
+    - The difficulty buttons are coloured green, yellow and red for users who can't read to tell them apart.
+    - Selecting any of these buttons turns any face-up cards back over and reshuffles the cards.
+
+5. **Character selection buttons**
+    - Players can choose from three different Disney movie characters to display on the memory cards.
+    - Selecting any of these buttons turns any face-up cards back over and reshuffles the cards.
+
+6. **Mute button**
+    - The mute button switches off all audio in the game. It is represented by a large speaker icon, which switches to one with a cross next to it when active.
+ 
+7. **Reset button**
+    - The reset button, represented by a curved arrow, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the turns counter back to 0. 
+    - It does not reset the difficulty level or characters chosen for the cards. 
+
+8. **Info button**
+    - Represented by a large question mark, the info button opens the info modal. 
+    - The info modal offers easy to understand instructions on how to play the game. 
+    - Underneath how to play instructions there is information on how to open the modal to delete the player’s profile. 
+    - The place to click is easy for an adult to see, but not an obvious button to click for a child. 
+
+<div align="center">
+<img src="https://i.ibb.co/xJ7PbS2/info-modal.jpg" alt="Screenshot: Info Modal" >
+</div><br>
+
+9. **Parental check modal**
+    - This modal appears if the correct icon is clicked in the info modal. 
+    - It explains that deleting the player profile will remove all game data including high scores. 
+    - Then it asks a simple maths question with 9 possible answers to choose from, only if the correct answer is clicked will the player profile be deleted. 
+    - All other choices will close the modal when clicked with no further effects to the game.
+    - At this point the maths question and correct answer are static. This is a feature I would like to update in the future (see [Features Left to Implement](#Features-left-to-implement) for more information)
+
+<div align="center">
+<img src="https://i.ibb.co/nrRkQsq/delete-data-modal.jpg" alt="Screenshot: Parental check modal" >
+</div>
+
+
+10. **Turns counter**
+    - Located above the game cards, the turns counter counts the number of turns the player has taken in the current game. 
+    - This total is then used to give the player a score out of 5 stars when the game is complete.
+
+11. **Game board and cards**
+    - The game board is where the memory cards are displayed. 
+    - The cards are laid out in a grid 4 cards wide on medium to large screens, and 3 cards wide on phones to allow the size to remain easy for young fingers to tap on.
+    - The number of rows of cards visible changes depending on the difficulty level selected. 
+
+<div align="center">
+<img src="https://i.ibb.co/q5sDjB4/mobile-view.jpg" alt="Screenshot: game board mobile view" >
+</div>
+
+
+12. **Win modals** 
+    - PicFlip! has two possible win modals that pop up when a game is completed. 
+    - Both win modals display the number of stars the player won for the game they just played.
+    - The standard win modal is launched if the player completed the game, but did not beat their previous high score.
+    - The high score win modal is launched for a new high score, along with the number of stars earned the high score win modal also displays a trophy picture.
+
+<div align="center">
+<img src="https://i.ibb.co/YRjzhw5/high-score-modal.jpg" alt="Screenshot: high score modal" >
+</div>
+
+
+13. **Footer tab**
+    - A small tab is displayed at the bottom of the website that when clicked pulls up a short footer with developer information on. 
+
+### Features Left to Implement
+
+## Technologies Used
+
+- This project uses HTML and CSS programming languages.
+- [Bootstrap](https://www.bootstrapcdn.com/)
+    - The project uses **Bootstrap** to simplify the structure of the website and make the website responsive easily.
+    - The project also uses Bootstrap to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google fonts** to style the website fonts.
+- "[Imgbb](https://imgbb.com)"
+    - All external images for this project are stored on "**Imgbb.com**".
+- [GitHub](https://github.com/)
+    - This project uses **GitHub** to store and share all project code remotely. 
+    - 2The new GitHub Projects planner was utilised to plan and keep track of this project. This project plan can be viewed [here](https://github.com/AJGreaves/picflip/projects/1)."
+- [Browserstack](https://www.browserstack.com/)
+    - The project used **Browserstack** to test functionality on all browsers and devices.
+- [AutoPrefixer](https://autoprefixer.github.io/)
+    - The project used **AutoPrefixer** to make sure all css prefixes were the most up to date versions. 
+
+## Testing 
+
+Testing information can be found in separate [testing.md](testing.md) file
+
+## Deployment
+
+This project was developed using the "[Cloud9 IDE](https://c9.io)", committed to git and pushed to GitHub using the built in function within "cloud9". 
+
+To deploy Bobs & Bangs to GitHub Pages from its [GitHub repository](https://github.com/potterjane/bobs-and-bangs), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **potterjane/bobs-and-bangs**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, PicFlip! is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+"The Bobs & Bangs project made use of several branches for development, testing and bug fixing. 
+The Master Branch has always been the one deployed to GitHUb Pages. When displaying the website life, the developer tries to keep the master branch to optimal code only.
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical."
+
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [PicFlip GitHub repository](https://github.com/potterjane/bobs-and-bangs).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
+
+## Credits
+
+### Content
+
+- All text in this project was written by the developer.
+
+### Media
+
+#### Images
+- 
+
+#### Audio
+- 
+
+### Code
+- 
+
+### Acknowledgements
+
+Special thanks to: 
+- Code Institute Mentor Mo LASTNAME for his time and support "in explaining and demonstrating areas of code this developer was struggling to understand".
+- My partner Fredrik, my friends Alex and Emelie and my sisters Marie and Erin for testing the website and giving this developer positive and constructive feedback.
+
+#### Disclaimer
+The content of this website, including the images and videos used, are for educational purposes only.
