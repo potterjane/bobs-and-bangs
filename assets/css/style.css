@@ -1,9 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto&display=swap');
 
+/* Font styles */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Major Mono Display', monospace;
 }
+
+/* Colours */
+
+body {
+    background-color: #131111;
+    color: blanchedalmond;
+}
+
+#highlight-letter {
+    color: #b288ca;
+}
+
+.btn-purple {
+    color: blanchedalmond;
+    background-color: #b288ca;
+    border-color: #b288ca;
+}
+
+/* Header */
+
+header div a {
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #b288ca;
+}
+
+/* Hero section */
+

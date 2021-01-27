@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <!--Company abbreviation with link to Home-->
-        <div>
-            <a href="index.html"><h1>b&B</h1></a> 
+        <div class="logo">
+            <a href="index.html"><h1>b&<span id="highlight-letter">B</span></h1></a> 
         </div>
         <!--/Company logo with link to Home-->
         <!--Navigation page-->
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -32,27 +32,28 @@
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
-        </div>
+        </nav>
         <!--/Navigation page-->
         <!--Button to Book Online-->
         <div>
-            <button type="button">Book Online</button>
+            <button type="button" class="btn btn-lg btn-purple">Book Online</button>
         </div>
         <!--/Button to Book Online-->
     </header>
     <section>
         <!--Callout with button to book an appointment-->
         <div>
-            <h1>boBs & Bangs</h1>
+            <h1>bo<span id="highlight-letter">B</span>s & <span id="highlight-letter">B</span>angs</h1>
             <p>When you want that personalized cut</p>
-            <button type="button">Book Now</button>
+            <button type="button" class="btn btn-lg btn-purple">Book Now</button>
             <p>Get 15% off your first appointment!</p>
         </div>
         <!--/Callout with button to book an appointment-->
     </section>
     <section>
-        <!--Customer reviews in a carousel-->
-        <h2>Reviews</h2>
+        <!--Customer reviews in a carousel, code added from Bootstrap and then customized
+        the width and-->
+        <h2>reviews</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -104,7 +105,7 @@
     <footer>
         <!--Contact us-->
         <div>
-            <h3>Contact us</h3>
+            <h3>contact us</h3>
             <p>
                 Visiting address:
                 <br>
@@ -132,7 +133,7 @@
         <!--/Contact Us-->
         <!--Opening hours-->
         <div>
-            <h3>Opening hours</h3>
+            <h3>opening hours</h3>
             <p>
                 Monday-Friday 10:00-19:00 CET
                 <br>
@@ -146,7 +147,7 @@
         <!--/Opening hours-->
         <!--Social links-->
         <div>
-            <h3>Follow us on social media</h3>
+            <h3>follow us on social media</h3>
             <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
             <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
