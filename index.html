@@ -10,43 +10,53 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-    <header class="navbar">
-        <!--Company abbreviation with link to Home-->
-        <div>
-            <a href="index.html"><h1>b&<span id="highlight-letter">B</span></h1></a> 
+    <header class="container">
+        <div class="row">
+            <!--Company abbreviation with link to Home-->
+            <div class="col-sm">
+                <a href="index.html"><h1>b&<span id="highlight-letter">B</span></h1></a>
+            </div> 
+            <!--/Company logo with link to Home-->
+            <!--Navigation page-->
+            <div class="col-sm">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--/Navigation page-->
+            <!--Button to Book Online-->
+            <div class="col-sm">
+                <button type="button" class="btn btn-lg btn-purple">Book Online</button>
+            </div>
+            <!--/Button to Book Online-->
         </div>
-        <!--/Company logo with link to Home-->
-        <!--Navigation page-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <!--/Navigation page-->
-        <!--Button to Book Online-->
-        <div class="navbutton">
-            <button type="button" class="btn btn-lg btn-purple">Book Online</button>
-        </div>
-        <!--/Button to Book Online-->
     </header>
     <section>
         <!--Callout with button to book an appointment-->
-        <div>
-            <h1>bo<span id="highlight-letter">B</span>s & <span id="highlight-letter">B</span>angs</h1>
-            <p>When you want that personalized cut</p>
-            <button type="button" class="btn btn-lg btn-purple">Book Now</button>
-            <p>Get 15% off your first appointment!</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="callout-container">
+                        <h1 id="company-logo">bo<span id="highlight-letter">B</span>s & <span id="highlight-letter">B</span>angs</h1>
+                        <p>When you want that personalized cut</p>
+                        <button type="button" class="btn btn-lg btn-purple">Book Now</button>
+                        <p>Get 15% off your first appointment!</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--/Callout with button to book an appointment-->
     </section>

@@ -38,32 +38,42 @@ body {
 
 header div a {
     text-decoration: none;
-    text-align: center;
     color: blanchedalmond;
 }
 
 nav a {
     text-decoration: none;
-    float: left;
-    display: block;
     color: blanchedalmond;
-    padding: 5%;
-    margin: 0 8px;
 }
 
 nav ul {
     list-style: none;
-    width: 600%;
 }
 
 nav a:hover {
     color: #b288ca;
 }
 
-.navbutton {
-    margin: 10px 40px;
-    position: relative;
-}
-
 /* Hero section */
 
+#company-logo {
+    font-size: 700%;
+}
+
+.callout-container {
+    z-index: 2;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 80px;
+    padding-bottom: 80px;  
+    margin-top: 120px;
+}
+
+.container-fluid {
+    background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    z-index: 1;
+}
+    
