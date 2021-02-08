@@ -10,35 +10,37 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
-    <header class="navbar">
-        <!--Company abbreviation with link to Home-->
-        <div>
-            <a href="index.html"><h1>b&<span id="highlight-letter">B</span></h1></a> 
+    <header class="container header-container">
+        <div class="row">
+            <!--Company abbreviation with link to Home-->
+            <div class="col-4">
+                <a href="index.html"><h1>b&<span id="highlight-letter">B</span></h1></a>
+            </div> 
+            <!--/Company abbreviation with link to Home-->
+            <!--Navigation page-->
+            <div class="col-8">
+                <nav>
+                    <ul class="nav-container">
+                        <li>
+                            <a href="index.html"><h5>home</h5></a>
+                        </li>
+                        <li>
+                            <a href="about.html"><h5>about</h5></a>
+                        </li>
+                        <li>
+                            <a href="services.html"><h5>services</h5></a>
+                        </li>
+                        <li>
+                            <a href="contact.html"><h5>contact</h5></a>
+                        </li>
+                        <li>
+                            <a href="booking.html"><h5>book online</h5></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!--/Navigation page-->
         </div>
-        <!--/Company logo with link to Home-->
-        <!--Navigation page-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <!--/Navigation page-->
-        <!--Button to Book Online-->
-        <div class="navbutton">
-            <button type="button" class="btn btn-lg btn-purple">Book Online</button>
-        </div>
-        <!--/Button to Book Online-->
     </header>
     <section>
         <!--Information about the company-->
@@ -47,65 +49,70 @@
         </div>
         <!--/Information about the company-->
     </section>
-    <footer>
-        <!--Contact us-->
-        <div>
-            <h3>Contact us</h3>
-            <p>
-                Visiting address:
-                <br>
-                Bobs & Bangs
-                <br>
-                Funäsgatan 34
-                <br>
-                162 73 Vällingby
-                <br>
-                SWEDEN
-            </p>
-            <br>
-            <p>
-                Phone number:
-                <br> 
-                <a href="tel:081234567">08-123 45 67</a>
-            </p>
-            <br>
-            <p>
-                Email: 
-                <br>
-                <a href="mailto:info@bobsandbangssalon.com">info@bobsandbangssalon.com</a>
-            </p>
+    <footer class="container">
+        <div class="row">
+            <div class="col-4">
+                <!--Contact us-->
+                <div class="contact">
+                    <h3>contact us</h3>
+                    <p>
+                        Visiting address:
+                        <br>
+                        Bobs & Bangs
+                        <br>
+                        Funäsgatan 34
+                        <br>
+                        162 73 Vällingby
+                        <br>
+                        SWEDEN
+                    </p>
+                    <p>
+                        Phone number:
+                        <br> 
+                        <a href="tel:081234567">08-123 45 67</a>
+                    </p>
+                    <p>
+                        Email: 
+                        <br>
+                        <a href="mailto:info@bobsandbangssalon.com">info@bobsandbangssalon.com</a>
+                    </p>
+                </div>
+                <!--/Contact Us-->
+            </div>
+            <div class="col-4">
+                <!--Opening hours-->
+                <div class="opening">
+                    <h3>opening hours</h3>
+                    <p>
+                        Monday-Friday 10:00-19:00 CET
+                        <br>
+                        Saturday 11:00-16:00 CET
+                        <br>
+                        Sunday CLOSED
+                        <br>
+                        <i>Closed on public holidays</i>
+                    </p>
+                </div>
+                <!--/Opening hours-->
+            </div>
+            <div class="col-4">
+                <!--Social links-->
+                <div class="socials">
+                    <h3>socials</h3>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!--/Social links--> 
+                <!--Disclaimer-->
+                <div class="disclaimer">
+                    <p>This developer made this brochure website for educational purposes only.</p>
+                    <p>Developed by: Jane Potter <a href="https://www.linkedin.com/in/jane-potter-667710128/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                </div>
+                <!--/Disclaimer-->
+            </div>
         </div>
-        <!--/Contact Us-->
-        <!--Opening hours-->
-        <div>
-            <h3>Opening hours</h3>
-            <p>
-                Monday-Friday 10:00-19:00 CET
-                <br>
-                Saturday 11:00-16:00 CET
-                <br>
-                Sunday CLOSED
-                <br>
-                <i>Closed on public holidays</i>
-            </p>
-        </div>
-        <!--/Opening hours-->
-        <!--Social links-->
-        <div>
-            <h3>Follow us on social media</h3>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <!--/Social links--> 
-        <!--Disclaimer-->
-        <div>
-            <p>This developer made this brochure website for educational purposes only.</p>
-            <br>
-            <p>Developed by: Jane Potter <a href="https://www.linkedin.com/in/jane-potter-667710128/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
-        </div>
-        <!--/Disclaimer-->
     </footer>
 </body>
 </html>
