@@ -42,12 +42,63 @@
             <!--/Navigation page-->
         </div>
     </header>
-    <section>
-        <!--Form for booking an appointment-->
+    <section class="container">
+        <!--Form for booking an appointment, with the help of Bootstrap classes-->
         <div class="booking-heading">
             <h1><span id="highlight-letter">B</span>ook an appointment</h1>
         </div>
         <!--/Form for booking an appointment-->
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" class="form-control" required>    
+                </div>
+                <div class="col">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" class="form-control" required>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="phone-number">Phone number</label>
+                    <input type="number" name="phone-number" id="phone-number" class="form-control" required>    
+                </div>
+                <div class="col">
+                    <label for="email-address">E-mail address</label>
+                    <input type="email" name="email-address" id="email-address" class="form-control" required>    
+                </div>
+            </div>
+            <!--Used code for input type="date" with the help of W3 Schools-->
+            <div class="row">
+                <div class="col">
+                    <label for="booking-date">Choose date</label>
+                    <input type="date" name="booking-date" id="booking-date" class="form-control" required>    
+                </div>
+            <!--/Used code for input type="date" with the help of W3 Schools-->
+                <div class="col">
+                    <label for="hair-dresser">Choose service</label>
+                    <select class="form-control" name="hair-dresser" id="hair-dresser" required>
+                        <option value="option1">Any</option>
+                        <option value="option2">Tilda</option>
+                        <option value="option3">Mathias</option>
+                    </select>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="specific-requirements">Any specific requirements?</label>
+                    <br>
+                    <!--Answers on how to make textarea responsive was a mix of HTML and CSS code found in StackOverflow-->
+                    <textarea name="specific-requirements" id="specific-requirements" cols="155" rows="5">
+                    </textarea>
+                    <!--/Answers on how to make textarea responsive was a mix of HTML and CSS code found in StackOverflow-->
+                </div>
+            </div>
+            <!--Centered this button with the help of CSS code found in StackOverflow-->
+            <input class="btn btn-lg btn-purple book-btn" type="submit" value="Submit">
+            <!--/Centered this button with the help of CSS code found in StackOverflow-->
+        </form>
     </section>
     <footer class="container">
         <div class="row">

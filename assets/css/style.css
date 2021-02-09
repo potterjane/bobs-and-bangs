@@ -101,7 +101,7 @@ div a h1:hover {
     margin-top: 120px;
 }
 
-.container-fluid {
+.hero-bg {
     background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -132,6 +132,7 @@ mark {
 
 footer {
     position: relative;
+    margin-top: 100px;
 }
 
 footer h3 {
@@ -173,5 +174,29 @@ footer h3 {
 
 .booking-heading {
     text-align: center;
+    margin-bottom: 50px;
 }
-    
+
+form .row {
+    margin-top: 10px;
+    padding: 0 60px;
+}
+
+textarea {
+    max-width: 100%;
+    resize: none;
+    margin-bottom: 15px;
+    border-color: #b288ca;
+    border-width: 3px;
+}
+
+.form-control {
+    border-color: #b288ca;
+    border-width: 3px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+}   
