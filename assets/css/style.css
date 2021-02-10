@@ -139,11 +139,11 @@ footer h3 {
     margin-bottom: 20px;
 }
 
-.contact {
+.contact-footer {
     text-align: center;
 }
 
-.contact a {
+.contact-footer a {
     text-decoration: none;
     color: #b288ca;
 }
@@ -170,6 +170,56 @@ footer h3 {
     color: #b288ca;
 }
 
+/* About section */
+
+.about-heading {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+/* Services section */
+
+.services-heading {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+/* Contact section */
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #b288ca;
+}
+
+.contact-1 {
+    padding-left: 160px;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-2a {
+    margin-right: 160px;
+}
+
+.contact-2b {
+    width: 400px;
+    margin-right: 160px;
+}
+
+.questions-form .row {
+    width: 500px;
+    margin-bottom: 10px;
+    
+}
+
 /* Booking section */
 
 .booking-heading {
@@ -177,7 +227,7 @@ footer h3 {
     margin-bottom: 50px;
 }
 
-form .row {
+.booking-content .row {
     margin-top: 10px;
     padding: 0 60px;
 }
