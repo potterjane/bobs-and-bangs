@@ -44,7 +44,7 @@ body {
 /* Header */
 
 .header-container {
-    margin: 20px 0 20px 60px;
+    margin: 20px 0 50px 60px;
     padding: 0;
 }
 
@@ -133,6 +133,7 @@ mark {
 footer {
     position: relative;
     margin-top: 100px;
+    clear: both;
 }
 
 footer h3 {
@@ -172,9 +173,22 @@ footer h3 {
 
 /* About section */
 
+.entire-about {
+    width: 75%;
+}
+
 .about-heading {
     text-align: left;
     margin-bottom: 50px;
+}
+
+.about-content {
+    margin: 40px 50px 0 0;
+}
+
+.about-images {
+   width: 25em;
+   height: 35em;
 }
 
 /* Services section */
@@ -182,6 +196,23 @@ footer h3 {
 .services-heading {
     text-align: left;
     margin-bottom: 50px;
+}
+
+.entire-services {
+    width: 75%;
+}
+
+video {
+    height: 60%;
+    width: 90%;
+}
+
+.tilda-section {
+    padding-top: 90px;
+}
+
+.mathias-section {
+    padding-top: 90px;
 }
 
 /* Contact section */
