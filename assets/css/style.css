@@ -117,6 +117,21 @@ mark {
     font-size: 85%;
 }
 
+/* Modal section */
+
+.modal-body {
+    color: blanchedalmond;
+    background-color: #131111;
+}
+
+.modal-title {
+    color: #131111;
+}
+
+input[type="date"] {
+    font-size: 15px;
+}
+
 /* Review section */
 
 .cust-reviews {

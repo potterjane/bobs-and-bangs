@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bobs & Bangs | When you want that personalized cut</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f0a0897f31.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -43,23 +43,25 @@
         </div>
     </header>
     <section>   
-        <!--Callout with button to book an appointment-->
+        <!--Callout with button trigger modal to book an appointment-->
         <div class="container-fluid hero-bg">
             <div class="row">
                 <div class="col-12">
                     <div class="callout-container">
                         <h1 id="company-logo">bo<span id="highlight-letter">B</span>s & <span id="highlight-letter">B</span>angs</h1>
                         <h4>When you want that personalized cut</h4>
-                        <a href="booking.html">
-                            <button type="button" class="btn btn-lg btn-purple book-btn">Book Now</button>
-                        </a>
+                        <!--Button trigger modal-->
+                        <button type="button" class="btn btn-lg btn-purple book-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Book Now
+                        </button>
+                        <!--/Button trigger modal-->
                         <br>
                         <mark>Get 15% off your first appointment!</mark>
                     </div>
                 </div>
             </div>
         </div>
-        <!--/Callout with button to book an appointment-->
+        <!--/Callout with button trigger modal to book an appointment-->
     </section>
     <section class="cust-reviews">
         <!--Customer reviews in a carousel, code added from Bootstrap and then customized
@@ -198,6 +200,74 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!--Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModal"><span id="highlight-letter">B</span>ook an appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!--Form for booking an appointment, with the help of Bootstrap classes-->
+                    <form class="booking-content">
+                        <div class="row">
+                            <div class="col">
+                                <label for="first-name">First name</label>
+                                <input type="text" name="first-name" id="first-name" class="form-control" required>    
+                            </div>
+                            <div class="col">
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="last-name" id="last-name" class="form-control" required>    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="phone-number">Phone number</label>
+                                <input type="number" name="phone-number" id="phone-number" class="form-control" required>    
+                            </div>
+                            <div class="col">
+                                <label for="email-address">E-mail address</label>
+                                <input type="email" name="email-address" id="email-address" class="form-control" required>    
+                            </div>
+                        </div>
+                        <!--Used code for input type="date" with the help of W3 Schools-->
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="booking-date">Choose date</label>
+                                <input type="date" name="booking-date" id="booking-date" class="form-control" required>    
+                            </div>
+                        <!--/Used code for input type="date" with the help of W3 Schools-->
+                            <div class="col-6">
+                                <label for="hair-dresser">Choose services by</label>
+                                <select class="form-control" name="hair-dresser" id="hair-dresser" required>
+                                    <option value="option1">Anyone</option>
+                                    <option value="option2">Tilda</option>
+                                    <option value="option3">Mathias</option>
+                                </select>  
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="specific-requirements">Write specific requirements here (e.g. I want to book cutting of short/medium long hair)</label>
+                                <br>
+                                <!--Answers on how to make textarea responsive was a mix of HTML and CSS code found in StackOverflow-->
+                                <textarea name="specific-requirements" id="specific-requirements" cols="155" rows="5"></textarea>
+                                <!--/Answers on how to make textarea responsive was a mix of HTML and CSS code found in StackOverflow-->
+                            </div>
+                        </div>
+                        <!--Centered this button with the help of CSS code found in StackOverflow-->
+                        <input class="btn btn-lg btn-purple book-btn" type="submit" value="Submit">
+                        <!--/Centered this button with the help of CSS code found in StackOverflow-->
+                    </form>
+                    <!--/Form for booking an appointment, with the help of Bootstrap classes-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Vertically centered modal copied from Bootstrap-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
