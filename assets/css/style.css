@@ -82,6 +82,21 @@ div a h1:hover {
     color: #b288ca;
 }
 
+.collapse-navbar {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .full-navbar {
+        display: none;
+    }
+
+    .collapse-navbar {
+        display: block;
+    }
+}
+
 /* Hero section */
 
 #company-logo {
