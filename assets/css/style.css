@@ -44,7 +44,7 @@ body {
 /* Header */
 
 .header-container {
-    margin: 20px 0 50px 60px;
+    margin: 20px 60px 20px 60px;
     padding: 0;
 }
 
@@ -94,6 +94,21 @@ div a h1:hover {
 
     .collapse-navbar {
         display: block;
+        float: right;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #b288ca;
+    }
+    
+    .navbar-dark {
+        float: right;
+        padding: 0;
+        margin-top: 10px;
     }
 }
 
