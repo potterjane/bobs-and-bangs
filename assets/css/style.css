@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    height: 100%
 }
 
 /* Body font styles */
@@ -44,13 +44,14 @@ body {
 /* Header */
 
 .header-container {
-    margin: 20px 60px 20px 60px;
+    margin: 20px 30px;
     padding: 0;
+    max-width: 100%;
 }
 
 .nav-container {
     padding: 0;
-    margin-top: 15px;
+    margin: 15px 80px;
     float: right;
 }
 
@@ -86,7 +87,7 @@ div a h1:hover {
     display: none;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1199px) {
 
     .full-navbar {
         display: none;
@@ -97,8 +98,10 @@ div a h1:hover {
         float: right;
     }
 
-    li {
-        width: 100%;
+    .nav-container-collapse {
+        float: right;
+        margin-top: 50px;
+        text-align: center;
     }
 
     .navbar-dark .navbar-toggler {
@@ -108,14 +111,14 @@ div a h1:hover {
     .navbar-dark {
         float: right;
         padding: 0;
-        margin-top: 10px;
+        margin: 3px 40px;
     }
 }
 
 /* Hero section */
 
 #company-logo {
-    font-size: 700%;
+    font-size: 6rem;
 }
 
 .book-btn {
@@ -123,12 +126,16 @@ div a h1:hover {
 }
 
 .callout-container {
-    z-index: 2;
+    display: none;
+}
+
+.full-callout-container {
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 80px;
     padding-bottom: 80px;  
     margin-top: 120px;
+    z-index: 2;
 }
 
 .hero-bg {
@@ -137,14 +144,29 @@ div a h1:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-size: cover;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
+    width: 100%;
     z-index: 1;
 }
 
 mark {
     font-size: 85%;
+    background-color: burlywood;
+}
+
+@media screen and (max-width: 1025px) {
+
+    .hero-bg {
+        display: none;
+    }
+
+    .callout-container {
+        display: block;
+        text-align: center;
+        margin: 38px 0;
+    }
+
 }
 
 /* Modal section */
@@ -154,8 +176,14 @@ mark {
     background-color: #131111;
 }
 
+.modal-header {
+    background-color: #131111;
+    border-color: blanchedalmond;
+}
+
 .modal-title {
-    color: #131111;
+    color: blanchedalmond;
+    text-align: center;
 }
 
 input[type="date"] {
@@ -165,7 +193,7 @@ input[type="date"] {
 /* Review section */
 
 .cust-reviews {
-    margin: 40px 0;
+    margin: 60px 20px;
     text-align: center;
 }
 
@@ -214,6 +242,62 @@ footer h3 {
 
 .disclaimer i {
     color: #b288ca;
+}
+
+.med-footer {
+    display: none;
+}
+
+.small-footer {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .full-footer {
+        display: none;
+    }
+
+    .small-footer {
+        display: none;
+    }
+
+    .med-footer {
+        display: block;
+    }
+
+    .socials i {
+        padding: 10px;
+    }
+
+    .socials, .disclaimer {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .full-footer {
+        display: none;
+    }
+
+    .med-footer {
+        display: none;
+    }
+
+    .small-footer {
+        display: block;
+    }
+
+    .socials i {
+        padding: 10px;
+    }
+
+    .opening, .socials, .disclaimer {
+        margin-top: 50px;
+    }
+
 }
 
 /* About section */

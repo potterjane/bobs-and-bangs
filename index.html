@@ -55,7 +55,7 @@
                 </div>
             </div>
             <!--/Navigation page for tablet and mobile, navbar code copied from Bootstrap for hamburger navbar icon-->
-            <!--Navigation page for website-->
+            <!--Navigation page for desktop-->
             <div class="full-navbar col-8">
                 <nav>
                     <ul class="nav-container">
@@ -77,15 +77,33 @@
                     </ul>
                 </nav>
             </div>
-            <!--/Navigation page for website-->
+            <!--/Navigation page for desktop-->
         </div>
     </header>
     <section>   
-        <!--Callout with button trigger modal to book an appointment-->
-        <div class="container-fluid hero-bg">
+        <!--Callout with button trigger modal to book an appointment for mobile and tablet-->
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="callout-container">
+                        <h1 id="company-logo">bo<span id="highlight-letter">B</span>s & <span id="highlight-letter">B</span>angs</h1>
+                        <!--Button trigger modal-->
+                        <button type="button" class="btn btn-lg btn-purple book-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Book Now
+                        </button>
+                        <!--/Button trigger modal-->
+                        <br>
+                        <mark>Get 15% off your first appointment!</mark>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Callout with button trigger modal to book an appointment for mobile and tablet-->
+        <!--Callout with button trigger modal to book an appointment for desktop-->
+        <div class="container-fluid hero-bg">
+            <div class="row">
+                <div class="col-12">
+                    <div class="full-callout-container">
                         <h1 id="company-logo">bo<span id="highlight-letter">B</span>s & <span id="highlight-letter">B</span>angs</h1>
                         <h4>When you want that personalized cut</h4>
                         <!--Button trigger modal-->
@@ -99,11 +117,10 @@
                 </div>
             </div>
         </div>
-        <!--/Callout with button trigger modal to book an appointment-->
+        <!--/Callout with button trigger modal to book an appointment for desktop-->
     </section>
     <section class="cust-reviews">
-        <!--Customer reviews in a carousel, code added from Bootstrap and then customized
-        the context and styled it to fit the website-->
+        <!--Customer reviews in a carousel, code added from Bootstrap and then adjusted and styled it to fit the website-->
         <h2><i class="fas fa-quote-right"></i></h2>
         <br>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -127,6 +144,7 @@
                     <i class="fas fa-hand-scissors"></i> <i class="fas fa-hand-scissors"></i>
                     <br>
                     <br>
+                    <br>
                 </p>
                 </div>
                 <div class="carousel-item">
@@ -145,6 +163,7 @@
                     <i class="fas fa-hand-scissors"></i> <i class="far fa-hand-scissors"></i>
                     <br>
                     <br>
+                    <br>
                 </p>
                 </div>
                 <div class="carousel-item">
@@ -159,21 +178,161 @@
                     <i class="fas fa-hand-scissors"></i> <i class="fas fa-hand-scissors"></i>
                     <br>
                     <br>
+                    <br>
                 </p>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
         </div>
-        <!--/Customer reviews in a carousel-->
+        <!--/Customer reviews in a carousel, code added from Bootstrap and then adjusted and styled it to fit the website-->
     </section>
-    <footer class="container">
+    <!--Footer adjusted for mobile-->
+    <footer class="container small-footer">
+        <div class="row">
+            <div class="col-12">
+                <!--Contact us-->
+                <div class="contact-footer">
+                    <h3>contact us</h3>
+                    <p>
+                        Visiting address:
+                        <br>
+                        Bobs & Bangs
+                        <br>
+                        Sjötullsgatan 6
+                        <br>
+                        761 30 Norrtälje
+                        <br>
+                        SWEDEN
+                    </p>
+                    <p>
+                        Phone number:
+                        <br> 
+                        <a href="tel:081234567">08-123 45 67</a>
+                    </p>
+                    <p>
+                        Email: 
+                        <br>
+                        <a href="mailto:info@bobsandbangssalon.com">info@bobsandbangssalon.com</a>
+                    </p>
+                </div>
+                <!--/Contact Us-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!--Opening hours-->
+                <div class="opening">
+                    <h3>opening hours</h3>
+                    <p>
+                        Monday-Friday 10:00-19:00 CET
+                        <br>
+                        Saturday 11:00-16:00 CET
+                        <br>
+                        Sunday CLOSED
+                        <br>
+                        <i>Closed on public holidays</i>
+                    </p>
+                </div>
+                <!--/Opening hours-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!--Social links-->
+                <div class="socials">
+                    <h3>socials</h3>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!--/Social links--> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!--Disclaimer-->
+                <div class="disclaimer">
+                    <p>This developer made this brochure website for educational purposes only.</p>
+                    <p>Developed by: Jane Potter <a href="https://www.linkedin.com/in/jane-potter-667710128/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                </div>
+                <!--/Disclaimer-->
+            </div>
+        </div>
+    </footer>
+    <!--/Footer adjusted for mobile-->
+    <!--Footer adjusted for tablet-->
+    <footer class="container med-footer">
+        <div class="row">
+            <div class="col-6">
+                <!--Contact us-->
+                <div class="contact-footer">
+                    <h3>contact us</h3>
+                    <p>
+                        Visiting address:
+                        <br>
+                        Bobs & Bangs
+                        <br>
+                        Sjötullsgatan 6
+                        <br>
+                        761 30 Norrtälje
+                        <br>
+                        SWEDEN
+                    </p>
+                    <p>
+                        Phone number:
+                        <br> 
+                        <a href="tel:081234567">08-123 45 67</a>
+                    </p>
+                    <p>
+                        Email: 
+                        <br>
+                        <a href="mailto:info@bobsandbangssalon.com">info@bobsandbangssalon.com</a>
+                    </p>
+                </div>
+                <!--/Contact Us-->
+            </div>
+            <div class="col-6">
+                <!--Opening hours-->
+                <div class="opening">
+                    <h3>opening hours</h3>
+                    <p>
+                        Monday-Friday 10:00-19:00 CET
+                        <br>
+                        Saturday 11:00-16:00 CET
+                        <br>
+                        Sunday CLOSED
+                        <br>
+                        <i>Closed on public holidays</i>
+                    </p>
+                </div>
+                <!--/Opening hours-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <!--Social links-->
+                <div class="socials">
+                    <h3>socials</h3>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!--/Social links--> 
+            </div>
+            <div class="col-6">
+                <!--Disclaimer-->
+                <div class="disclaimer">
+                    <p>This developer made this brochure website for educational purposes only.</p>
+                    <p>Developed by: Jane Potter <a href="https://www.linkedin.com/in/jane-potter-667710128/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                </div>
+                <!--/Disclaimer-->
+            </div>
+        </div>
+    </footer>
+    <!--/Footer adjusted for tablet-->
+    <!--Footer adjusted for desktop-->
+    <footer class="container full-footer">
         <div class="row">
             <div class="col-4">
                 <!--Contact us-->
@@ -238,8 +397,9 @@
             </div>
         </div>
     </footer>
+    <!--/Footer adjusted for desktop-->
 
-    <!--Modal-->
+    <!--Modal code taken from Bootstrap-->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -304,7 +464,7 @@
             </div>
         </div>
     </div>
-    <!--/Vertically centered modal copied from Bootstrap-->
+    <!--/Modal code taken from Bootstrap-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
