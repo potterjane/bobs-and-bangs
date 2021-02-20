@@ -314,22 +314,87 @@ footer h3 {
 
 /* About section */
 
-.entire-about {
-    width: 75%;
+.entire-about-full {
+    width: 80%;
+    display: block;
 }
 
-.about-heading {
+.about-heading-full {
     text-align: left;
     margin-bottom: 50px;
 }
 
-.about-content {
-    margin: 40px 50px 0 0;
+.about-content-full {
+    margin-top: 110px;
+    margin-right: 10%;
+    width: 60%;
 }
 
-.about-images {
-   width: 25em;
-   height: 35em;
+.about-images-full {
+   width: 22em;
+   height: 32em;
+}
+
+.entire-about-big, .entire-about-med, .entire-about-small {
+    display: none;
+}
+
+@media screen and (max-width: 1335px) {
+
+    .entire-about-big {
+        width: 75%;
+        display: block;
+    }
+
+    .about-heading-big {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .about-content-big {
+        margin-top: 70px;
+        margin-right: 7%;
+        width: 55%;
+    }
+
+    .about-images-big {
+        margin-top: 8%;
+        width: 20em;
+        height: 30em;
+    }
+
+    .entire-about-full, .entire-about-med, .entire-about-small {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1121px) {
+
+    .entire-about-med {
+        width: 80%;
+        display: block;
+    }
+
+    .about-heading-med {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .about-content-med {
+        margin-top: 5%;
+        margin-right: 5%;
+        width: 45%;
+    }
+
+    .about-images-med {
+
+    }
+
+    .entire-about-full, .entire-about-big, .entire-about-small {
+        display: none;
+    }
+
 }
 
 /* Services section */
