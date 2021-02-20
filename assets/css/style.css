@@ -335,11 +335,11 @@ footer h3 {
    height: 32em;
 }
 
-.entire-about-big, .entire-about-med, .entire-about-small {
+.entire-about-med-big, .entire-about-big, .entire-about-med, .entire-about-small {
     display: none;
 }
 
-@media screen and (max-width: 1335px) {
+@media screen and (max-width: 1465px) {
 
     .entire-about-big {
         width: 75%;
@@ -354,44 +354,113 @@ footer h3 {
     .about-content-big {
         margin-top: 70px;
         margin-right: 7%;
-        width: 55%;
+        width: 50%;
     }
 
     .about-images-big {
-        margin-top: 8%;
         width: 20em;
-        height: 30em;
+        height: 35em;
+        margin-top: 5%;
     }
 
-    .entire-about-full, .entire-about-med, .entire-about-small {
+    .entire-about-full, .entire-about-med-big, .entire-about-med, .entire-about-small {
         display: none;
     }
 
 }
 
-@media screen and (max-width: 1121px) {
+@media screen and (max-width: 991px) {
+
+    .entire-about-med-big {
+        width: 85%;
+        display: block;
+    }
+
+    .about-heading-med-big {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    /* Copied code from Geeksforgeeks.org on how to wrap text around images using CSS */
+    .about-content-med-big {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .about-images-med-big {
+        float: right;
+        margin: 2%;
+        width: 32%;
+    }
+    /* /Copied code from Geeksforgeeks.org on how to wrap text around images using CSS */
+
+    .entire-about-full, .entire-about-big, .entire-about-med, .entire-about-small {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 786px) {
 
     .entire-about-med {
-        width: 80%;
+        width: 85%;
         display: block;
     }
 
     .about-heading-med {
-        text-align: left;
+        text-align: center;
         margin-bottom: 50px;
     }
 
     .about-content-med {
         margin-top: 5%;
         margin-right: 5%;
-        width: 45%;
+        width: 100%;
+        text-align: center;
     }
 
+    /* Used code from W3 Schools to center an image with CSS */
     .about-images-med {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: 5%;
+    }
+    /* /Used code from W3 Schools to center an image with CSS */
 
+    .entire-about-full, .entire-about-med-big, .entire-about-big, .entire-about-small {
+        display: none;
     }
 
-    .entire-about-full, .entire-about-big, .entire-about-small {
+}
+
+@media screen and (max-width: 576px) {
+
+    .entire-about-small {
+        width: 90%;
+        display: block;
+    }
+
+    .about-heading-small {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .about-content-small {
+        width: 95%;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+    /* Used code from W3 Schools to center an image with CSS */
+    .about-images-small {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    /* /Used code from W3 Schools to center an image with CSS */
+
+    .entire-about-full, .entire-about-med-big, .entire-about-big, .entire-about-med {
         display: none;
     }
 
