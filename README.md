@@ -15,7 +15,7 @@
 4. [**Testing**](#testing)
 
 5. [**Deployment**](#deployment)
-    - [**How to run this project locally**](#how-to-run-this-project-locally)
+    - [**How to run this project locally using a command line**](#how-to-run-this-project-locally-using-a-command-line)
 
 6. [**Credits**](#credits)
     - [**Content**](#content)
@@ -220,7 +220,31 @@ This information can be found in separate [testing.md](testing.md) file
 
 ## Deployment
 
-### How to run this project locally
+This project was created and developed using the [GitPod IDE](https://www.gitpod.io/), and then added, committed and pushed to [GitHub](https://github.com/) to store and share all project codes.
+
+The followings steps were taken by the developer in order to deploy Bobs & Bangs to GitHub Pages:
+1. Log into GitHub
+2. Choose from the list the repositories, [bobs-and-bangs](https://github.com/potterjane/bobs-and-bangs)
+3. Select 'Settings' from this repository's menu bar.
+4. Scroll down to the 'GitHub Pages' section.
+5. Under 'Source' and from the drop-down menu labelled 'None', select the 'master' branch and then click 'Save'.
+6. When the page is refreshed, scroll back down to the 'GitHub Pages' section to retrieve the link to the [deployed website](https://potterjane.github.io/bobs-and-bangs/). 
+
+### How to run this project locally using a command line
+
+The project can be run locally by cloning the repository from GitHub. Below are the steps that the developer took to clone this project using HTTPS and the command line. 
+Read this [GitHub document](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to find other ways to run this project locally.
+
+1. Log into GitHub
+2. Choose from the list the repositories, [bobs-and-bangs](https://github.com/potterjane/bobs-and-bangs)
+3. From the drop-down menu labelled 'Code', select the HTTPS section and then click on the icon to copy the URL of the repository.
+4. Open the local terminal.
+5. Change the current working directory to the location where the cloned directory is to be stored.
+6. When directory has been changed and location is selected, type ```git clone``` and then paste the URL of the repository that was copied in step 3.
+```console
+git clone https://github.com/potterjane/bobs-and-bangs.git
+```
+7. Press 'Enter'.
 
 ## Credits
 
