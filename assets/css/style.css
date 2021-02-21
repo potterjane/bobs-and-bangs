@@ -682,7 +682,7 @@ iframe {
 
 .booking-content .row {
     margin-top: 10px;
-    padding: 0 60px;
+    padding: 0 90px;
 }
 
 textarea {
@@ -707,3 +707,45 @@ input[type="submit"] {
     margin: 0 auto;
     margin-top: 3px;
 }   
+
+@media screen and (max-width: 768px) {
+
+   .booking-content {
+       width: 100%;
+   }
+
+   .booking-content .row {
+    margin-top: 10px;
+    padding: 0;
+}
+    
+    input[type="date"] {
+        padding: 4%;
+    }   
+
+}
+
+@media screen and (max-width: 320px) {
+
+   .booking-content {
+       width: 100%;
+   }
+
+   .booking-content .row {
+        margin-top: 10px;
+        padding: 0;
+    }
+    
+    .booking-content .col {
+        font-size: 77%;
+    }
+
+    input[type="date"] {
+       width: 85%;
+    }   
+
+    select {
+        width: 85%;
+    }
+
+}
