@@ -1,3 +1,5 @@
+# View the Bobs & Bangs page [here](https://potterjane.github.io/bobs-and-bangs/)
+
 ## Table of Contents
 1. [**UX**](#ux)
     - [**Project Goals**](#project-goals)
