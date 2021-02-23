@@ -208,6 +208,59 @@ mark {
     color: #b288ca;
 }
 
+#carouselExampleIndicators {
+    min-height: 15rem;
+    max-height: 15rem;
+}
+
+@media screen and (max-width: 888px) {
+
+    #carouselExampleIndicators {
+        min-height: 17rem;
+        max-height: 17rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    #carouselExampleIndicators {
+        min-height: 18rem;
+        max-height: 18rem;
+    }
+
+    .carousel-item {
+        font-size: 0.95rem;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+
+    #carouselExampleIndicators {
+        min-height: 19rem;
+        max-height: 19rem;
+    }
+
+    .carousel-item {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+
+    #carouselExampleIndicators {
+        min-height: 20rem;
+        max-height: 20rem;
+    }
+
+    .carousel-item {
+        font-size: 0.7rem;
+    }
+
+}
+
 /* Footer section */
 
 footer {

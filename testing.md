@@ -36,10 +36,10 @@ The following validation services were used to check the validity of the website
 
     When collapsing and uncollapsing the navbar for mobile and tablet screens, the entire ul presented a 'jump' behaviour.
 
-    **How I fixed it:**
+    **How this developer fixed it:**
 
     With the help of the [SimplySmartMedia](https://simplysmartmedia.com/2016/06/heres-why-your-bootstrap-collapsed-alert-jumps-when-expanded/)'s post, 
-    I moved the ```class="nav-container-collapse"``` from the ```<ul>``` element to the grandparent ```<div>``` element.
+    the ```class="nav-container-collapse"``` was moved from the ```<ul>``` element to the grandparent ```<div>``` element.
 
     ```html
     <div class="collapse nav-container-collapse" id="navbarToggleExternalContent">
@@ -70,10 +70,41 @@ The following validation services were used to check the validity of the website
                     </div>
     ```
 
+2. **Jumping behaviour of the customer review carousel**
 
+    On the Home page, carousel slide number 2 had an extra paragraph line in comparison to the other slides, 
+    which caused the whole carousel to present a 'height jump' behaviour when slide 2 was presented in desktop screens.
+
+    Adjusting the number of paragraph lines to be equal for each slide did not solve the 'height jump' issue for smaller screens.
+
+    **How this developer fixed it:**
+
+    In order for the carousel to be fully responsive and not present a 'height jump' behaviour on any screen sizes,
+    ```min-height``` and ```max-height``` was set to the ```#carouselExampleIndicators``` and ```font-size```
+    was adjusted for each ```.carousel-item``` under ```@media screen```.
+
+    For example:
+
+    ```css
+        @media screen and (max-width: 576px) {
+
+        #carouselExampleIndicators {
+            min-height: 18rem;
+            max-height: 18rem;
+        }
+
+        .carousel-item {
+            font-size: 0.95rem;
+        }
+
+    }
+    ```
+
+    This developer was able to do this with inspiration from this [StackOverflow](https://stackoverflow.com/questions/29985360/bootstrap-carousel-whole-website-jumps-when-image-is-changing) post.
 
 ### Unsolved bugs
 
 ## Further testing
 
-- Asked friends and family to test out the website on their devices to see if there were any further issues found.
+- This developer asked friends and family to test out the website on their devices to see if there were any 
+further issues found.
