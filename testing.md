@@ -109,6 +109,16 @@ The following validation services were used to check the validity of the website
     Regarding the ```<form>``` for the Booking page and for the modal in the Home page, this developer has not found 
     a solution to adjust the font size of all the 'Choose service' options for smaller screens.
 
+2. **Position of the uncollapsed navbar differs between screen sizes**
+
+    Between ```@media screen and max-width``` of 615px - 1199px, the uncollapsed navbar floats near the center of the 
+    page instead of the right-hand side of the page right under the navbar icon. This developer has not found a solution 
+    for this.
+
+<div align="center"><h4>Incorrect position of the uncollapsed navbar</h4>
+<img src="screenshots/position-navbar.png" alt="Screenshot: Incorrect position of uncollapsed navbar" >
+</div>
+
 ## Further testing
 
 - This developer asked friends and family to test out the website on their devices to see if there were any 

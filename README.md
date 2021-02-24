@@ -168,7 +168,7 @@ The second version of the mobile and desktop mockup was made when the project wa
     - The users can also choose to close the modal by clicking on the modal “backdrop”.
 
 <div align="center"><h4>Booking modal on Home page</h4>
-<img src="features/booking-modal.png" alt="Screenshot: Booking modal" >
+<img src="screenshots/booking-modal.png" alt="Screenshot: Booking modal" >
 </div>
 
 2. **Review and image carousel**
@@ -177,11 +177,11 @@ The second version of the mobile and desktop mockup was made when the project wa
     - This feature allows users to control the transition duration by holding down on the review/image. 
 
 <div align="center"><h4>Customer review carousel on Home page</h4>
-<img src="features/review-carousel.png" alt="Screenshot: Review carousel" >
+<img src="screenshots/review-carousel.png" alt="Screenshot: Review carousel" >
 </div>
 
 <div align="center"><h4>Image carousel on About page</h4>
-<img src="features/images-carousel.png" alt="Screenshot: Image carousel" >
+<img src="screenshots/images-carousel.png" alt="Screenshot: Image carousel" >
 </div>
 
 3. **Navigation bar for desktop and mobile**
@@ -190,11 +190,11 @@ The second version of the mobile and desktop mockup was made when the project wa
     - This feature allows users to easily navigate through each part of the website with minumum number of clicks.
 
 <div align="center"><h4>Desktop navbar</h4>
-<img src="features/desktop-navbar.png" alt="Screenshot: Navbar for desktop screens" >
+<img src="screenshots/desktop-navbar.png" alt="Screenshot: Navbar for desktop screens" >
 </div>
 
 <div align="center"><h4>Mobile and tablet navbar</h4>
-<img src="features/mobile-navbar.png" alt="Screenshot: Navbar for mobile and tablet screens" >
+<img src="screenshots/mobile-navbar.png" alt="Screenshot: Navbar for mobile and tablet screens" >
 </div>
 
 4. **Links in the footer**
@@ -202,7 +202,7 @@ The second version of the mobile and desktop mockup was made when the project wa
     - This feature allows users to contact the company or to find more about the company with just one click, no matter which page the users are currently on.
 
 <div align="center"><h4>Desktop footer</h4>
-<img src="features/footer-desktop.png" alt="Screenshot: Footer on desktop" >
+<img src="screenshots/footer-desktop.png" alt="Screenshot: Footer on desktop" >
 </div>
 
 ## Technologies Used

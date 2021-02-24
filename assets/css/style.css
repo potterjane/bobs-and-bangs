@@ -83,6 +83,10 @@ nav a:hover {
     color: #b288ca;
 }
 
+div a h1 {
+    font-size: 2.4rem;
+}
+
 div a h1:hover {
     color: #b288ca;
 }
@@ -158,7 +162,7 @@ mark {
     background-color: burlywood;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1160px) {
 
     .hero-bg {
         display: none;
@@ -171,7 +175,23 @@ mark {
     }
 
     #company-logo {
-        font-size: 5rem;
+        font-size: 7rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    #company-logo {
+        font-size: 4.7rem;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+
+    #company-logo {
+        font-size: 4rem;
     }
 
 }
