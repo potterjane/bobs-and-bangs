@@ -104,6 +104,11 @@ The following validation services were used to check the validity of the website
 
 ### Unsolved bugs
 
+1. **Adjust the font size of all the 'Choose service' options**
+
+    Regarding the ```<form>``` for the Booking page and for the modal in the Home page, this developer has not found 
+    a solution to adjust the font size of all the 'Choose service' options for smaller screens.
+
 ## Further testing
 
 - This developer asked friends and family to test out the website on their devices to see if there were any 

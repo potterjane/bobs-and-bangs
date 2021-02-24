@@ -107,17 +107,19 @@
             </div>
             <!--Used code for input type="date" with the help of W3 Schools-->
             <div class="row">
-                <div class="col">
+                <div class="col-6">
                     <label for="booking-date">Choose date</label>
                     <input type="date" name="booking-date" id="booking-date" class="form-control" required>    
                 </div>
             <!--/Used code for input type="date" with the help of W3 Schools-->
-                <div class="col">
+                <div class="col-6">
                     <label for="hair-dresser">Choose service</label>
                     <select class="form-control" name="hair-dresser" id="hair-dresser" required>
-                        <option value="option1">Anyone</option>
-                        <option value="option2">Tilda</option>
-                        <option value="option3">Mathias</option>
+                        <optgroup>
+                            <option value="option1">Anyone</option>
+                            <option value="option2">Tilda</option>
+                            <option value="option3">Mathias</option>
+                        </optgroup>
                     </select>  
                 </div>
             </div>
