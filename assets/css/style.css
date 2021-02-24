@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto&display=swap');
 
-/* Body structure */
+/* --------------------------------------------------------------------------Body structure */
 
 html, body {
     margin: 0;
@@ -11,7 +11,7 @@ html, body {
     /* /Got help from Stack Overflow to disable the horizontal scroll */
 }
 
-/* Body font styles */
+/* --------------------------------------------------------------------------Body font styles */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Major Mono Display', monospace;
 }
 
-/* Body colours */
+/* --------------------------------------------------------------------------Body colours */
 
 body {
     background-color: #131111;
@@ -45,7 +45,7 @@ body {
     border-color: blanchedalmond;
 }
 
-/* Header */
+/* --------------------------------------------------------------------------Header section */
 
 .header-container {
     margin: 20px 30px;
@@ -122,7 +122,7 @@ div a h1:hover {
     }
 }
 
-/* Hero section */
+/* --------------------------------------------------------------------------Hero section */
 
 #company-logo {
     font-size: 8rem;
@@ -196,7 +196,7 @@ mark {
 
 }
 
-/* Modal section */
+/* --------------------------------------------------------------------------Modal section */
 
 .modal-body {
     color: blanchedalmond;
@@ -213,7 +213,7 @@ mark {
     text-align: center;
 }
 
-/* Review section */
+/* --------------------------------------------------------------------------Review section */
 
 .cust-reviews {
     margin: 35px 20px;
@@ -281,7 +281,7 @@ mark {
 
 }
 
-/* Footer section */
+/* --------------------------------------------------------------------------Footer section */
 
 footer {
     position: relative;
@@ -380,7 +380,7 @@ footer h3 {
 
 }
 
-/* About section */
+/* --------------------------------------------------------------------------About section */
 
 .entire-about-full {
     width: 80%;
@@ -403,11 +403,14 @@ footer h3 {
    height: 32em;
 }
 
-.entire-about-med-big, .entire-about-big, .entire-about-med, .entire-about-small {
+.entire-about-med-big, 
+.entire-about-big, 
+.entire-about-med, 
+.entire-about-small {
     display: none;
 }
 
-@media screen and (max-width: 1465px) {
+@media screen and (max-width: 1500px) {
 
     .entire-about-big {
         width: 75%;
@@ -431,13 +434,16 @@ footer h3 {
         margin-top: 5%;
     }
 
-    .entire-about-full, .entire-about-med-big, .entire-about-med, .entire-about-small {
+    .entire-about-full, 
+    .entire-about-med-big, 
+    .entire-about-med, 
+    .entire-about-small {
         display: none;
     }
 
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1150px) {
 
     .entire-about-med-big {
         width: 85%;
@@ -453,6 +459,7 @@ footer h3 {
     .about-content-med-big {
         width: 100%;
         text-align: justify;
+        margin-top: 3%;
     }
 
     .about-images-med-big {
@@ -462,7 +469,10 @@ footer h3 {
     }
     /* /Copied code from Geeksforgeeks.org on how to wrap text around images using CSS */
 
-    .entire-about-full, .entire-about-big, .entire-about-med, .entire-about-small {
+    .entire-about-full, 
+    .entire-about-big, 
+    .entire-about-med, 
+    .entire-about-small {
         display: none;
     }
 
@@ -496,7 +506,10 @@ footer h3 {
     }
     /* /Used code from W3 Schools to center an image with CSS */
 
-    .entire-about-full, .entire-about-med-big, .entire-about-big, .entire-about-small {
+    .entire-about-full, 
+    .entire-about-med-big, 
+    .entire-about-big, 
+    .entire-about-small {
         display: none;
     }
 
@@ -528,13 +541,16 @@ footer h3 {
     }
     /* /Used code from W3 Schools to center an image with CSS */
 
-    .entire-about-full, .entire-about-med-big, .entire-about-big, .entire-about-med {
+    .entire-about-full, 
+    .entire-about-med-big, 
+    .entire-about-big, 
+    .entire-about-med {
         display: none;
     }
 
 }
 
-/* Services section */
+/* --------------------------------------------------------------------------Services section */
 
 .entire-services-full {
     display: block;
@@ -706,7 +722,7 @@ video {
 
 }
 
-/* Contact section */
+/* --------------------------------------------------------------------------Contact section */
 
 .contact-heading {
     text-align: center;
@@ -741,7 +757,7 @@ iframe {
     margin-bottom: 10px;
 }
 
-/* Booking section */
+/* --------------------------------------------------------------------------Booking section */
 
 .booking-heading {
     text-align: center;
