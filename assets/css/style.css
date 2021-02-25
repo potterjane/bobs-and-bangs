@@ -625,31 +625,31 @@ footer h3 {
 }
 
 .tilda-video, .mathias-video {
-    margin-top: 12%;
+    margin-top: 13%;
 }
 
 video {
-    width: 100%;
-    height: 75%;
+    width: 78%;
+    height: 78%;
 }
 
 .entire-services-small {
     display: none;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399px) {
     
     .entire-services-full {
         display: block;
     }
 
     .tilda-video, .mathias-video {
-        margin-top: 13%;
+        margin-top: 14%;
     }
 
     video {
-        width: 100%;
-        height: 100%;
+        width: 84%;
+        height: 84%;
     }
 
     .entire-services-small {
@@ -657,7 +657,20 @@ video {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1199px) {
+    
+    .tilda-video, .mathias-video {
+        margin-top: 17%;
+    }
+
+    video {
+        width: 90%;
+        height: 90%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
 
     .entire-services-small {
         display: block;
@@ -683,8 +696,8 @@ video {
     }
 
     video {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
     }
 
     .entire-services-full {
@@ -692,6 +705,13 @@ video {
     }
 
 }
+
+@media screen and (max-width: 767px) {
+    video {
+        width: 50%;
+        height: 50%;
+    }
+} 
 
 @media screen and (max-width: 576px) {
 
@@ -727,8 +747,28 @@ video {
     }
 
     video {
-        width: 75%;
-        height: 75%;
+        width: 45%;
+        height: 45%;
+    }
+
+    .entire-services-full {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+
+    .entire-services-small {
+        display: block;
+    }
+
+    table {
+        font-size: 69%;
+    }
+
+    thead h6 {
+        font-size: 84%;
     }
 
     .entire-services-full {
