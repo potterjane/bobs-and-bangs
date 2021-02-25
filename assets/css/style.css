@@ -403,6 +403,11 @@ footer h3 {
    height: 32em;
 }
 
+.carousel-inner {
+    min-height: 30rem;
+    max-height: 30rem;
+}
+
 .entire-about-med-big, 
 .entire-about-big, 
 .entire-about-med, 
@@ -465,9 +470,14 @@ footer h3 {
     .about-images-med-big {
         float: right;
         margin: 2%;
-        width: 32%;
+        width: 30%;
     }
     /* /Copied code from Geeksforgeeks.org on how to wrap text around images using CSS */
+
+    .carousel-inner {
+        min-height: 26rem;
+        max-height: 26rem;
+    }
 
     .entire-about-full, 
     .entire-about-big, 
@@ -476,6 +486,14 @@ footer h3 {
         display: none;
     }
 
+}
+
+@media screen and (max-width: 990px) {
+
+    .carousel-inner {
+        min-height: 20rem;
+        max-height: 20rem;
+    }
 }
 
 @media screen and (max-width: 786px) {
@@ -501,16 +519,30 @@ footer h3 {
     .about-images-med {
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 65%;
         margin-top: 5%;
     }
     /* /Used code from W3 Schools to center an image with CSS */
+
+    .carousel-inner {
+        min-height: 34rem;
+        max-height: 34rem;
+    }
 
     .entire-about-full, 
     .entire-about-med-big, 
     .entire-about-big, 
     .entire-about-small {
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 625px) {
+
+    .carousel-inner {
+        min-height: 31rem;
+        max-height: 31rem;
     }
 
 }
@@ -537,15 +569,38 @@ footer h3 {
     .about-images-small {
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 78%;
     }
     /* /Used code from W3 Schools to center an image with CSS */
+
+    .carousel-inner {
+        min-height: 30rem;
+        max-height: 30rem;
+    }
 
     .entire-about-full, 
     .entire-about-med-big, 
     .entire-about-big, 
     .entire-about-med {
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .carousel-inner {
+        min-height: 25rem;
+        max-height: 25rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .carousel-inner {
+        min-height: 18rem;
+        max-height: 18rem;
     }
 
 }

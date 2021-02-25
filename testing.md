@@ -88,19 +88,43 @@ The following validation services were used to check the validity of the website
     ```css
         @media screen and (max-width: 576px) {
 
-        #carouselExampleIndicators {
-            min-height: 18rem;
-            max-height: 18rem;
-        }
+            #carouselExampleIndicators {
+                min-height: 18rem;
+                max-height: 18rem;
+            }
 
-        .carousel-item {
-            font-size: 0.95rem;
-        }
+            .carousel-item {
+                font-size: 0.95rem;
+            }
 
-    }
+        }
     ```
 
     This developer was able to do this with inspiration from this [StackOverflow](https://stackoverflow.com/questions/29985360/bootstrap-carousel-whole-website-jumps-when-image-is-changing) post.
+
+3. **Jumping behaviour of the image carousel**
+
+    Just like the customer review carousel on the Home page, the image carousel presented a jumping behaviour when
+    switching slides. This is because the images are not of equal height.
+    
+    **How this developer fixed it:**
+
+    Similaryly to the previous bug fix, in order for the carousel to be fully responsive and not present a 'height jump' 
+    behaviour on any screen sizes, ```min-height``` and ```max-height``` was set to the ```.carousel-inner``` for the 
+    ```@media screen``` that presented this bug.
+
+    For example:
+
+    ```css
+        @media screen and (max-width: 320px) {
+
+            .carousel-inner {
+                min-height: 18rem;
+                max-height: 18rem;
+            }
+
+        }
+    ```
 
 ### Unsolved bugs
 
