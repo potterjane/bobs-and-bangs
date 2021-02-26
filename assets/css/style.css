@@ -819,37 +819,68 @@ video {
 
 /* --------------------------------------------------------------------------Contact section */
 
-.contact-heading {
-    text-align: center;
-    margin-bottom: 50px;
+.contact-big {
+    display: block;
 }
 
-.contact a {
+.contact-heading {
+    text-align: center;
+    margin: auto;
+}
+
+.contact {
+    max-width: 100%;
+    margin: auto;
+}
+
+.contact h4 {
+    font-size: 1rem;
+}
+
+.contact-job a, .contact-rebook a {
     text-decoration: none;
     color: #b288ca;
 }
 
-.contact-1 {
-    padding-left: 160px;
-}
-
 iframe {
-    margin: 0;
+    margin: 0 20%;
     padding: 0;
 }
 
-.contact-2a {
-    margin-right: 160px;
+.contact-rebook p {
+    max-width: 60%;
 }
 
-.contact-2b {
-    width: 400px;
-    margin-right: 160px;
+.contact-form {
+    max-width: 90%;
 }
+
+.questions-form 
 
 .questions-form .row {
-    width: 500px;
+    width: 50%;
     margin-bottom: 10px;
+}
+
+.contact-map h4 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact-small {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .contact-small {
+        display: block;
+    }
+
+    .contact-big {
+        display: none;
+    }
+
 }
 
 /* --------------------------------------------------------------------------Booking section */
