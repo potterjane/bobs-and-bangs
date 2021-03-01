@@ -828,43 +828,37 @@ video {
     margin: auto;
 }
 
-.contact {
-    max-width: 100%;
-    margin: auto;
-}
-
 .contact h4 {
-    font-size: 1rem;
+    text-align: center;
+    margin-top: 7%;
 }
 
-.contact-job a, .contact-rebook a {
+.contact-job-rebook-row {
+    margin: 0 10%;
+}
+
+.contact-job a, 
+.contact-rebook a {
     text-decoration: none;
     color: #b288ca;
 }
 
-iframe {
-    margin: 0 20%;
-    padding: 0;
-}
-
+.contact-job p,
 .contact-rebook p {
-    max-width: 60%;
+    margin: 0 15%;
+    text-align: center;
 }
 
-.contact-form {
-    max-width: 90%;
+.questions-form {
+    margin: 0 20%;
 }
-
-.questions-form 
 
 .questions-form .row {
-    width: 50%;
-    margin-bottom: 10px;
+    margin-top: 2%;
 }
 
-.contact-map h4 {
+.contact-map {
     text-align: center;
-    margin-top: 5%;
 }
 
 .contact-small {
