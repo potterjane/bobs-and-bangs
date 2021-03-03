@@ -156,7 +156,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/). The first
 The second version of the mobile and desktop mockup was made when the project was almost at the point of completion.
 
 - [First version](https://github.com/potterjane/bobs-and-bangs/blob/29beb82abe6f7bced87dd899abb743d32003d710/wireframes/bb-wireframes-version-1.pdf)
-- [Second version]()
+- [Second and final version](https://github.com/potterjane/bobs-and-bangs/blob/7e7932c00b6f3f4af4947bb1bac9aef2a7d79e59/wireframes/bb-wireframes-version-2.pdf)
 
 ## Features
  
