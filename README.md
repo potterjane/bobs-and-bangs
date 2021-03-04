@@ -275,6 +275,7 @@ and [forms](https://getbootstrap.com/docs/5.0/forms/overview/) were used.
 - Code on how to disable the horizontal scroll on all pages was taken from this [StackOverflow](https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll) post.
 - Code on how to center an image was taken from this[W3Schools](https://www.w3schools.com/howto/howto_css_image_center.asp) post.
 - Code on how to change the autofill styles for the input fields in forms was taken from this [CSS-Tricks](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/) post.
+- Code on how to hide spinners/arrows from input 'number' was taken from this [W3Schools](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp) post.
 
 ### Acknowledgements
 

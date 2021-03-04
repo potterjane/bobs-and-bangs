@@ -912,6 +912,20 @@ input[type="submit"] {
     margin-top: 3px;
 }   
 
+/* Removed the up and down spinner from the 'number' input field, code taken from W3Schools */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* /Removed the up and down spinner from the 'number' input field, code taken from W3Schools */
+
 /* Change autocomplete styles in WebKit, code taken from CSS-tricks.com */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
