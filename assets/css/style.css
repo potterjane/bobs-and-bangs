@@ -841,6 +841,10 @@ video {
     margin: auto;
 }
 
+.contact-heading h2 {
+    font-size: 250%;
+}
+
 .contact h4 {
     text-align: center;
     margin-top: 7%;
@@ -872,6 +876,10 @@ video {
 
 .contact-map {
     text-align: center;
+}
+
+iframe {
+    width: 60%;
 }
 
 .contact-small {
