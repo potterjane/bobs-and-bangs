@@ -107,12 +107,7 @@ div a h1:hover {
     }
 
     .nav-container-collapse {
-        float: right;
-        margin: 50px 10px 0;
-        text-align: center;
-        min-height: 100%;
-        max-height: 100%;
-        max-width: 30%;
+        display: block;
     }
 
     .navbar-dark .navbar-toggler {
@@ -751,14 +746,9 @@ video {
         margin-top: 15%;
     }
 
-    .tilda-video, .mathias-video {
-        width: 100%;
-        text-align: center;
-    }
-
-    video {
-        width: 40%;
-        height: 40%;
+    .tilda-image, .mathias-image {
+        width: 50%;
+        margin: 0 auto;
     }
 
     .entire-services-full {
@@ -766,13 +756,6 @@ video {
     }
 
 }
-
-@media screen and (max-width: 767px) {
-    video {
-        width: 50%;
-        height: 50%;
-    }
-} 
 
 @media screen and (max-width: 576px) {
 
@@ -794,9 +777,9 @@ video {
         margin-top: 15%;
     }
 
-    .tilda-video, .mathias-video {
-        width: 100%;
-        text-align: center;
+    .tilda-image, .mathias-image {
+        width: 70%;
+        margin: 0 auto;
     }
 
     table {
@@ -805,11 +788,6 @@ video {
 
     thead h6 {
         font-size: 90%;
-    }
-
-    video {
-        width: 45%;
-        height: 45%;
     }
 
     .entire-services-full {
@@ -822,6 +800,11 @@ video {
 
     .entire-services-small {
         display: block;
+    }
+
+    .tilda-image, .mathias-image {
+        width: 90%;
+        margin: 0 auto;
     }
 
     table {
@@ -844,6 +827,11 @@ video {
         display: block;
     }
 
+    .tilda-image, .mathias-image {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     table {
         font-size: 70%;
     }
@@ -862,6 +850,11 @@ video {
 
     .entire-services-small {
         display: block;
+    }
+
+    .tilda-image, .mathias-image {
+        width: 90%;
+        margin: 0 auto;
     }
 
     table {
