@@ -397,6 +397,10 @@ footer h3 {
     margin-bottom: 50px;
 }
 
+.about-heading-full h2 {
+    font-size: 250%;
+}
+
 .about-content-full {
     margin-top: 110px;
     margin-right: 10%;
@@ -432,6 +436,10 @@ footer h3 {
         margin-bottom: 50px;
     }
 
+    .about-heading-big h2 {
+        font-size: 250%;
+    }
+
     .about-content-big {
         margin-top: 70px;
         margin-right: 7%;
@@ -463,6 +471,10 @@ footer h3 {
     .about-heading-med-big {
         text-align: center;
         margin-bottom: 70px;
+    }
+
+    .about-heading-med-big h2 {
+        font-size: 250%;
     }
 
     /* Copied code from Geeksforgeeks.org on how to wrap text around images using CSS */
@@ -511,6 +523,10 @@ footer h3 {
     .about-heading-med {
         text-align: center;
         margin-bottom: 50px;
+    }
+
+    .about-heading-med h2 {
+        font-size: 250%;
     }
 
     .about-content-med {
@@ -562,6 +578,10 @@ footer h3 {
     .about-heading-small {
         text-align: center;
         margin-bottom: 50px;
+    }
+
+    .about-heading-small h2 {
+        font-size: 250%;
     }
 
     .about-content-small {
