@@ -897,6 +897,10 @@ video {
     margin-bottom: 50px;
 }
 
+.booking-heading h2 {
+    font-size: 250%;    
+}
+
 .booking-content .row {
     margin-top: 10px;
     padding: 0 90px;
