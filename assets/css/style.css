@@ -34,15 +34,15 @@ body {
 
 .btn-purple {
     color: blanchedalmond;
-    background-color: #b288ca;
-    border-color: #b288ca;
+    background-color: #9f5dc5;
+    border-color: #24152c;
     font-size: 1rem;
 }
 
 .btn-purple:hover {
-    color: #b288ca;
+    color: #9f5dc5;
     background-color: blanchedalmond;
-    border-color: blanchedalmond;
+    border-color: wheat;
 }
 
 /* --------------------------------------------------------------------------Header section */
@@ -139,12 +139,13 @@ div a h1:hover {
 .full-callout-container {
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 4rem;
-    padding-bottom: 4rem;  
+    padding-top: 2rem;
+    padding-bottom: 2rem;  
     margin: 6rem 0;
     z-index: 2;
 }
 
+/* Code to make sure that the background image is covered on all browsers was taken from CSS Tricks */
 .hero-bg {
     background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -156,6 +157,7 @@ div a h1:hover {
     width: 100%;
     z-index: 1;
 }
+/* /Code to make sure that the background image is covered on all browsers was taken from CSS Tricks */
 
 mark {
     font-size: 85%;

@@ -276,6 +276,7 @@ and [forms](https://getbootstrap.com/docs/5.0/forms/overview/) were used.
 - Code on how to center an image was taken from this[W3Schools](https://www.w3schools.com/howto/howto_css_image_center.asp) post.
 - Code on how to change the autofill styles for the input fields in forms was taken from this [CSS-Tricks](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/) post.
 - Code on how to hide spinners/arrows from input 'number' was taken from this [W3Schools](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp) post.
+- Code to make sure the background image on the Hero section is covered on all browsers was taken from [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) post.
 
 ### Acknowledgements
 
