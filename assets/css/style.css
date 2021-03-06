@@ -127,25 +127,25 @@ div a h1:hover {
 
 /* --------------------------------------------------------------------------Hero section */
 
-#company-logo {
-    font-size: 8rem;
+.full-callout-container {
+    display: block;
 }
 
 .book-btn {
     margin: 10px;
 }
 
-.callout-container {
-    display: none;
-}
-
 .full-callout-container {
     position: relative;
     background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 2rem;
-    padding-bottom: 2rem;  
-    margin: 6rem 0;
+    max-height: 75vh;
+    min-height: 75vh;
+    padding: 10% 0;
     z-index: 2;
+}
+
+.full-callout-container h2 {
+    font-size: 8.7rem;
 }
 
 /* Code to make sure that the background image is covered on all browsers was taken from CSS Tricks */
@@ -165,9 +165,22 @@ div a h1:hover {
 mark {
     font-size: 85%;
     background-color: burlywood;
+    margin-bottom: 20%;
 }
 
-@media screen and (max-width: 1160px) {
+.callout-container {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .full-callout-container h2 {
+        font-size: 7.8rem;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
 
     .hero-bg {
         display: none;
@@ -179,23 +192,33 @@ mark {
         margin: 20px 0;
     }
 
-    #company-logo {
-        font-size: 7rem;
+    .callout-container h2 {
+        font-size: 6.5rem;
     }
 
 }
 
 @media screen and (max-width: 576px) {
 
-    #company-logo {
-        font-size: 4.7rem;
+    .hero-bg {
+        display: none;
+    }
+
+    .callout-container {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .callout-container h2 {
+        font-size: 4.6rem;
     }
 
 }
 
 @media screen and (max-width: 280px) {
 
-    #company-logo {
+    .callout-container h2 {
         font-size: 4rem;
     }
 
@@ -223,6 +246,11 @@ mark {
 .cust-reviews {
     margin: 35px 20px;
     text-align: center;
+}
+
+.fa-quote-right {
+    font-size: 200%;
+    margin-bottom: 2.5%;
 }
 
 .carousel-inner p {
