@@ -107,7 +107,31 @@ div a h1:hover {
     }
 
     .nav-container-collapse {
+        margin-top: 40px;
+        float: right;
+        min-width: 25px;
+        max-width: 25px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #b288ca;
+    }
+    
+    .navbar-dark {
+        float: right;
+        margin: 3px 40px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+
+    .full-navbar {
+        display: none;
+    }
+
+    .collapse-navbar {
         display: block;
+        float: right;
     }
 
     .navbar-dark .navbar-toggler {
