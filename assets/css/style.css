@@ -908,6 +908,15 @@ video {
     font-size: 250%;
 }
 
+.contact-job h3,
+.contact-rebook h3,
+.contact-form h3,
+.contact-map h3 {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 5%;
+}
+
 .contact h4 {
     text-align: center;
     margin-top: 7%;
