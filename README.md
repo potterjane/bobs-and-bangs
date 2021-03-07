@@ -1,4 +1,18 @@
-# View the Bobs & Bangs page [here](https://potterjane.github.io/bobs-and-bangs/)
+<div align="center"> 
+
+# Bobs & Bangs
+
+[Bobs & Bangs](https://potterjane.github.io/bobs-and-bangs/) is a (fictional) hair salon/barbershop, located in Stockholm and owned by a couple called Tilda and Mathias. 
+With its blended mixture of masculine and feminine styles, it is a place where people from all walks of life are welcome to, for instance, get a haircut, 
+styling or why not a facial? 
+<br>
+From this brochure website, you can find images/videos that gives you a peek inside the hair salon/barbershop, read customer reviews, check out the price list of all the services they offer, 
+their contact information, and you can book an appointment.
+<br>
+
+Check out the Bobs & Bangs website [here](https://potterjane.github.io/bobs-and-bangs/)!
+
+</div>
 
 ## Table of Contents
 1. [**UX**](#ux)
@@ -32,7 +46,7 @@
 ### Project Goals
 
 The primary goal of the Bobs & Bangs website is to provide information about the company, what services they offer and how they can book appointment or contact the company.
-The design of the website should also reflect the style of the hair salon: a blended mixture of feminine and masculine traits.
+The design of the website should also reflect the style of the hair salon: a blended mixture of feminine and masculine features.
 Features include images and videos of the hair salon and the two owners, Tilda (hair stylist) and Mathias (barber and skin care professional), modal button on the front page and a booking page 
 to easily book appointments, reviews from customers, social links to provide a different way to learn more about the company and get more peer reviews, and a contact page with various ways to
 contact the company.
