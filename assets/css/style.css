@@ -189,10 +189,10 @@ mark {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 
     .full-callout-container h2 {
-        font-size: 7.8rem;
+        font-size: 6.8rem;
     }
 
 }
