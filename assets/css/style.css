@@ -107,10 +107,8 @@ div a h1:hover {
     }
 
     .nav-container-collapse {
-        margin-top: 40px;
+        margin-top: 50px;
         float: right;
-        min-width: 25px;
-        max-width: 25px;
     }
 
     .navbar-dark .navbar-toggler {
