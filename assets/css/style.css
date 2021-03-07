@@ -59,6 +59,11 @@ body {
     float: right;
 }
 
+.nav-container p {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 130%;
+}
+
 header div a {
     text-decoration: none;
     color: blanchedalmond;
@@ -109,6 +114,11 @@ div a h1:hover {
     .nav-container-collapse {
         margin-top: 50px;
         float: right;
+    }
+
+    .nav-container-collapse p {
+        font-family: 'Major Mono Display', monospace;
+        font-size: 130%;
     }
 
     .navbar-dark .navbar-toggler {
