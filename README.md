@@ -26,7 +26,7 @@ Check out the Bobs & Bangs website [here](https://potterjane.github.io/bobs-and-
 2. [**Features**](#features)
     - [**Existing Features**](#existing-features)
 
-3. [**Technologies used**](#technologies-used)
+3. [**Technologies Used**](#technologies-used)
 
 4. [**Testing**](#testing)
 
@@ -185,7 +185,7 @@ The second version of the mobile and desktop mockup was made when the project wa
 </div>
 
 2. **Review and image carousel**
-    - Bootstrap's carousels were used in two places, one for the customer reviews in the Home page and on for the images in the About page. 
+    - Bootstrap's carousels were used in two places, one for the customer reviews in the Home page and one for the images in the About page. 
     - It gives the website a sense of movement and removes the hassle of scrolling through several images and reviews, manually.
     - This feature allows users to control the transition duration by holding down on the review/image. 
 
@@ -194,11 +194,11 @@ The second version of the mobile and desktop mockup was made when the project wa
 </div>
 
 <div align="center"><h4>Image carousel on About page</h4>
-<img src="screenshots/images-carousel.png" alt="Screenshot: Image carousel" >
+<img src="screenshots/image-carousel.png" alt="Screenshot: Image carousel" >
 </div>
 
 3. **Navigation bar for desktop and mobile**
-    - Standard navigation bar is used for desktop screens, aligned on the top-right side of all the pages.
+    - Standard navigation bar is used for desktop screens, aligned on the top-right side on all the pages.
     - Bootstrap's 'hamburger' navbar is used to collapse the navigation content for mobile and tablet screens. This is to remove any unneccesarry clutter for the users.
     - This feature allows users to easily navigate through each part of the website with minumum number of clicks.
 
@@ -211,11 +211,72 @@ The second version of the mobile and desktop mockup was made when the project wa
 </div>
 
 4. **Links in the footer**
-    - Target blank links to all the external social websites and contact information is found here.
-    - This feature allows users to contact the company or to find more about the company with just one click, no matter which page the users are currently on.
+    - 'target="_blank"' links to all the external social websites and contact information is found here.
+    - This feature allows users to contact the company or to find more about the company with just one click, 
+    no matter which page the users are currently on.
 
 <div align="center"><h4>Desktop footer</h4>
-<img src="screenshots/footer-desktop.png" alt="Screenshot: Footer on desktop" >
+<img src="screenshots/desktop-footer.png" alt="Screenshot: Footer on desktop" >
+</div>
+
+5. **Price list for services**
+    - The services and their prices are listed on tables.
+    - The table feature gives users an easy and structured view of all of the prices and services.
+    - Alongside each table is a video on desktop and larger tablet screens or an image on mobile screens.
+    - The images provides users the faces behind the people performing the services listed on the tables.
+    - The videos gives the users an insight on the hair dresser's/barber's work and interaction with a
+    customer.
+
+<div align="center"><h4>Services on desktop</h4>
+<img src="screenshots/desktop-services.png" alt="Screenshot: Services on desktop" >
+</div>
+
+<div align="center"><h4>Services on mobile</h4>
+<img src="screenshots/mobile-services.png" alt="Screenshot: Services on mobile" >
+</div>
+
+6. **Links on the Contact page**
+    - 'target="_blank"' links to all the contact information is found here.
+    - This feature allows users to contact the company by calling or e-mailing with just one click, 
+    no matter which device the user is currently using.
+
+<div align="center"><h4>Contact links on desktop</h4>
+<img src="screenshots/contact-links-desktop.png" alt="Screenshot: Contact links on desktop" >
+</div>
+
+<div align="center"><h4>Contact links on mobile</h4>
+<img src="screenshots/contact-links-mobile.png" alt="Screenshot: Contact links on mobile" >
+</div>
+
+7. **Contact form on the Contact page**
+    - This provides an alternative option for users to contact the company that does not involve 
+    calling, e-mailing, visiting, or posting on social links.
+    - It is required to fill in name, e-mail address and message in order to send the form.
+
+<div align="center"><h4>Contact form on desktop</h4>
+<img src="screenshots/contact-form-desktop.png" alt="Screenshot: Contact form on desktop" >
+</div>
+
+8. **Embedded Google Maps**
+    - This features gives users a visual on the location of the hair salon/barbershop. 
+    Users can zoom in and out or click on 'View larger map' to open the map in a new tab.
+
+<div align="center"><h4>Google Maps on Contact page</h4>
+<img src="screenshots/contact-map-desktop.png" alt="Screenshot: Google map on Contact page" >
+</div>
+
+9. **Booking page**
+    - This feature gives users the option to book their appointment by filling out a form on a separate page 
+    instead of booking on the Home page via the booking modal.
+    - Excluding the 'Specific requirements' field, the rest of the fields are required to be filled in order
+    to submit the form.
+
+<div align="center"><h4>Booking form on desktop</h4>
+<img src="screenshots/booking-form-desktop.png" alt="Screenshot: Booking form on desktop" >
+</div>
+
+<div align="center"><h4>Booking form on mobile</h4>
+<img src="screenshots/booking-form-mobile.png" alt="Screenshot: Booking form on mobile" >
 </div>
 
 ## Technologies Used
@@ -231,7 +292,7 @@ The second version of the mobile and desktop mockup was made when the project wa
 
 ## Testing 
 
-This information can be found in separate [testing.md](testing.md) file
+This information can be found in separate [testing.md](testing.md) file.
 
 ## Deployment
 
@@ -288,7 +349,7 @@ and [forms](https://getbootstrap.com/docs/5.0/forms/overview/) were used.
 - Code on how to wrap text around an image is taken from this [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-wrap-the-text-around-an-image-using-html-and-css/) post.
 - Code on how to embedd Google Maps was found in one of Code Institute's HTML module about [iframe](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/13db720675f94dbca6b0fe79467628ca/).
 - Code on how to disable the horizontal scroll on all pages was taken from this [StackOverflow](https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll) post.
-- Code on how to center an image was taken from this[W3Schools](https://www.w3schools.com/howto/howto_css_image_center.asp) post.
+- Code on how to center an image was taken from this [W3Schools](https://www.w3schools.com/howto/howto_css_image_center.asp) post.
 - Code on how to change the autofill styles for the input fields in forms was taken from this [CSS-Tricks](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/) post.
 - Code on how to hide spinners/arrows from input 'number' was taken from this [W3Schools](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp) post.
 - Code to make sure the background image on the Hero section is covered on all browsers was taken from [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/) post.
