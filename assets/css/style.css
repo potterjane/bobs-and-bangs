@@ -33,15 +33,15 @@ body {
 }
 
 .btn-purple {
-    color: blanchedalmond;
-    background-color: #9f5dc5;
-    border-color: #24152c;
+    color: white;
+    background-color: #24152c;
+    border-color: #b288ca;
     font-size: 1rem;
 }
 
 .btn-purple:hover {
-    color: #9f5dc5;
-    background-color: blanchedalmond;
+    color: #24152c;
+    background-color: white;
     border-color: wheat;
 }
 
