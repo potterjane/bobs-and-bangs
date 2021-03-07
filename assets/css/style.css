@@ -182,7 +182,7 @@ div a h1:hover {
 
 /* Code to make sure that the background image is covered on all browsers was taken from CSS Tricks */
 .hero-bg {
-    background: url(../images/hero-image.jpg) no-repeat bottom right fixed;
+    background: url(../images/hero-image.webp) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
