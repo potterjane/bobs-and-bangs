@@ -112,13 +112,18 @@ div a h1:hover {
     }
 
     .nav-container-collapse {
-        margin-top: 50px;
+        margin-top: 2rem;
         float: right;
+    }
+
+    .nav-container-collapse .p-4 {
+        margin-top: 5px;
     }
 
     .nav-container-collapse p {
         font-family: 'Major Mono Display', monospace;
         font-size: 130%;
+        margin-right: 50px;
     }
 
     .navbar-dark .navbar-toggler {
@@ -131,7 +136,7 @@ div a h1:hover {
     }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 365px) {
 
     .full-navbar {
         display: none;
