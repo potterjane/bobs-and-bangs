@@ -221,7 +221,7 @@ The second version of the mobile and desktop mockup was made when the project wa
 ## Technologies Used
 
 **This project used:**
-- HTML and CSS programming languages. 
+- Primarily HTML and CSS programming languages. Javascript was used for Bootstrap's carousel.
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)'s CSS and Javascript library, version 5.0.
 - [Google Fonts](https://fonts.google.com/) to style the website's fonts.
 - [Font Awesome](https://fontawesome.com/)'s free kit of icons.
@@ -297,7 +297,7 @@ and [forms](https://getbootstrap.com/docs/5.0/forms/overview/) were used.
 
 Special thanks to: 
 - Code Institute Mentor Mo for his time and for always offering his support and suggestions on what this developer needs to focus on in order to complete the project.
-- Boyfriend Fredrik, friends Alex and Emelie and sisters Marie and Erin for testing the website and giving this developer positive and constructive feedback.
+- Boyfriend Fredrik, friends Alex and Emelie, sisters Marie and Erin and dad for testing the website and giving this developer both positive and constructive feedback.
 
 #### Disclaimer
 The content of this website, including the images and videos used, are for educational purposes only.
