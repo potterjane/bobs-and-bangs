@@ -1,8 +1,8 @@
 # Bobs & Bangs - Testing details
 
-[Main README.md file](README.md)
+Click [here](README.md) for the website's README file
 
-[View website in GitHub Pages](https://potterjane.github.io/bobs-and-bangs/)
+View the website [here](https://potterjane.github.io/bobs-and-bangs/)
 
 ## Table of Contents
 
