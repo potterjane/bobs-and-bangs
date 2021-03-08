@@ -55,12 +55,71 @@ The report generated a Best Practices rate of 100 out of 100.
 The report generated a SEO rate of 100 out of 100.
 
 ## User Stories Testing
+In this section, this developer manually tests all the user stories described on the [README](README.md)
+page, under the UX section.
+
+As a new or retained customer, I want:
+1. To be able to know the background of the company, their price list of services, what other customers think of their services via reviews or social links, 
+so that I can come to a decision whether or not to try out their services. 
+    - Background of the company is found on the About page in 3 paragraphs with light purple colour on the company title
+    to make the paragraphs more vibrant.
+    - Company's price list of services is found on the Services page as tables to make it clear and concise.
+    - Customer reviews are found on the Home page as a Bootstrap carousel with 4 different customer reviews.
+    Scissor icons, coloured in the same light purple colour, are used as 'review stars' to make it unique and
+    match the theme of the website.
+    - Social links opens in a new tab on all of the pages under the footer section, making it easily accessible.
+
+All of the above points make the website stand out and attract users to book an appointment.
+
+2. To be able to easily book an appointment with as few clicks as possible, so that I can book an appointment with a minimum amount of time, anytime I like.
+    - Modal button with booking form is found directly on the Home page, near the center.
+    - A separate Booking page is found in the navigation bar (in order of importance).
+
+When user lands on the first page, they only need to make one click to either access the booking form via the modal button or via the navigation bar.
+
+3. To know if there are any special offers/discounts directly on the first page, so that I know straight away if I should book an appointment now or later.
+    - A highlighted text that says, 'Get 15% off your first appointment!' is found on the Home page, directly under the modal button to the booking form.
+    - The light-coloured highlighted text (in contrast with the rest of the page) makes it stand out and draws the user's eyes directly to it.
+
+4. To be able to contact the company in various ways, depending on my personal preference, so that I can contact the company if I have any questions or want to book/rebook/cancel an appointment.
+    - In the footer section on all of the pages, users can find the company's visiting address and click on 'target="_blank"' links to phone number, e-mail address and social applications.
+    - On the Contact page, users can find information on how to rebook/cancel an appointment, can fill in a contact form and click on 'target="_blank"' links to call or e-mail the company.
+
+5. To see several images/videos, so that I can gain a better insight on what it is like inside the hair salon/barbershop.
+    - An background image of brush, scissors and razors on a wooden table is added to the hero section on the Home page. This informs the users of the hair salon's/barbershop's
+    rustic aesthetic and what industry this website is related to.
+    - 6 different images are added to a Bootstrap carousel to create a sense of movement but also to avoid clutter on the About page.
+    - An additional 2 different images are shown on the Service page on smaller screens. On bigger screens, there are instead 2 different videos that users can control.
+    When user presses play, the video is played on mute and on a loop until the user presses pause.
+
+All of the above-mentioned images and videos are sourced from one and the same user called [cottonbro](https://www.pexels.com/@cottonbro)'s [Pexels](https://www.pexels.com/) free library.
+This is done intentionally to make it feel more like a real company. This has been successful since several of the developer's friends and family that tested out the website on their devices
+thought it was a real hair salon/barbershop.
+
+As a hair stylist/barber looking for a job, I want:
+1. To be able to know the background of the company, what customers think of their services via reviews or social links, so that I can come to a decision on whether or not
+to send in my resume/CV.
+    - Background of the company is found on the About page in 3 paragraphs with light purple colour on the company title
+    to make the paragraphs more vibrant.
+    - Customer reviews are found on the Home page as a Bootstrap carousel with 4 different customer reviews.
+    Scissor icons, coloured in the same light purple colour, are used as 'review stars' to make it unique and
+    match the theme of the website.
+    - On the Contact page, the top-left section is titled 'Want to work with us?' with a direct link to the company's email-address for job seekers. 
+    - Social links opens in a new tab on all of the pages under the footer section, making it easily accessible.
+
+All of the above points make the website stand out and attract users that are potential employees to contact the company and send it their CV/resume.
+
+2. To be able to contact the company in various ways, depending on my personal preference, so that I can contact the company if I have any more questions.
+    - In the footer section on all of the pages, users can find the company's visiting address and click on 'target="_blank"' links to phone number, e-mail address and social applications.
+    - On the Contact page, users can find a direct link to the company's email-address for job seekers, can fill in a contact form and click on 'target="_blank"' links to call or e-mail the company.
 
 ## Manual Testing
 
 ### Testing on desktop screens
+Several tests were done on a smaller laptop screen and a bigger stationary computer screen and on the following browsers: Brave, Chrome, Edge, Firefox and Opera.
 
-### Testing on tablet and phone screens
+### Testing on mobile screens
+Several tests were done on a Huawei mobile screen and an iPhone 6 mobile screen and on the following browsers: Chrome, Safari and via Facebook Messenger.
 
 ## Bugs discovered
 
