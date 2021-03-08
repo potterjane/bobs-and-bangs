@@ -24,10 +24,11 @@
 ### Validation services
 - [W3C Markup Validation]( https://validator.w3.org/) was used to validate all the HTML pages (home, about, services, contact, booking).
 Copied all the code from the html page, pasted it in the field under 'Validate by direct input' and then clicked on the 'Check' button.
-**No errors or warnings to show on any of the HTML pages.**
+**For this website, no errors or warnings to show on any of the HTML pages.**
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS. Copied all the code from the css page, pasted 
 it in the field under 'By direct input' and then clicked on the 'Check' button.
-**No errors were found, however there were some warnings.** 
+**For this website, no errors were found, however there were some warnings:** 
+
 This [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error)
 post explained that the warning on line 1, 'Imported style sheets are not checked in direct input and file upload modes',
 meant that it did not validate the imported style sheet. In other words, not actually a warning, just information.
@@ -59,14 +60,14 @@ URI : TextArea
 ### Accessibility services
 - [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was used to
 evaluate the accessibilty on all of the website's page in incognito mode, as recommended (see screenshot below).
-In order to run a Lighthouse report, open Google Chrome, go to the URL for [Bobs & Bangs](https://potterjane.github.io/bobs-and-bangs/) (You can audit any URL on the web)
-and then open Chrome DevTools. Change from the Elements tab to the Lighthouse tab (You might need to click on 'right arrows' icon to access this tab). Choose at least one category and a device
+In order to run a Lighthouse report, open Google Chrome, go to the URL for [Bobs & Bangs](https://potterjane.github.io/bobs-and-bangs/) and then open Chrome DevTools. 
+Change from the Elements tab to the Lighthouse tab (You might need to click on 'right arrows' icon to access this tab). Choose at least one category and a device
 and then click on 'Generate report'.
-**The report generated an Accessibility rate of 100 out of 100.**
+**The report generated an Accessibility rate of 100 out of 100 for this website.**
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was also used to evaluate the accessibilty
 on all of the website's pages in incognito mode. You simply need to write the URL for [Bobs & Bangs](https://potterjane.github.io/bobs-and-bangs/) and then press 'Enter'
 to get the results.
-**The results were no errors were detected.**
+**The results were no errors were detected for this website.**
 
 <div align="center"><h4>Lighthouse error outside incognito mode</h4>
 <img src="screenshots/incognito-lighthouse.png" alt="Screenshot: Lighthouse error outside incognito mode" >
@@ -75,13 +76,12 @@ to get the results.
 ### Other Evaluation services via Lighthouse
 - [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was also used
 to evaluate performance, best practices and SEO on all of the website's pages in incognito mode.
-**The report generated a Performance rate an average of 96 out of 100.**
-**The report generated a Best Practices rate of 100 out of 100.**
-**The report generated a SEO rate of 100 out of 100.**
+**The report generated a Performance rate an average of 96 out of 100 for this website.**
+**The report generated a Best Practices rate of 100 out of 100 for this website.**
+**The report generated a SEO rate of 100 out of 100 for this website.**
 
 ## User Stories Testing
-In this section, this developer manually tests all the user stories described on the [README](README.md)
-page, under the UX section.
+In this section, this developer manually tested all the user stories described on the [README](README.md) page, under the UX section.
 
 As a new or retained customer, I want:
 1. To be able to know the background of the company, their price list of services, what other customers think of their services via reviews or social links, 
