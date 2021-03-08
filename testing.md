@@ -213,14 +213,14 @@ This developer followed these steps:
 
 10. Navigation
     * Go to any page
-    * On the top-left of the page, check that you see the company logo, 'B&B' with the first 'B' and '&' colored in 'blanchealmond' and
-    the second 'B' colored in light purple
-    * Check that when you hover over the company logo, the entire logo turns to the same light purple color
+    * On the top-left of the page, check that you see the company logo, 'B&B' with the first 'B' and '&' colored in white (blanchealmond) and
+    the second 'B' colored in light purple (#b288ca)
+    * Check that when you hover over the company logo, the entire logo turns to the same light purple color (#b288ca)
     * Check that when you click on the company logo, you stay or end up on the Home page
     * On the top-right of the page, check that you see all 5 navigation links to 'Home', 'About', 'Services', 'Contact' and 'Booking',
-    all colored in 'blanchealmond' and all horizontally-aligned.
-    * Check that when you hover over one of the navigation links, it turns to the light purple color.
-    * Check that when you click on one of the navigation links, it takes you to the corresponding page.
+    all colored in white (blanchealmond) and all horizontally-aligned
+    * Check that when you hover over one of the navigation links, it turns to the light purple color (#b288ca)
+    * Check that when you click on one of the navigation links, it takes you to the corresponding page
 
 ### Testing on mobile screens
 Several tests were done on a Huawei mobile screen and an iPhone 6 mobile screen and on the following browsers: Chrome, Safari and via Facebook Messenger.
@@ -293,15 +293,15 @@ This developer followed these steps:
 
 10. Navigation
     * Go to any page
-    * On the top-left of the page, check that you see the company logo, 'B&B' with the first 'B' and '&' colored in 'blanchealmond' and
-    the second 'B' colored in light purple
-    * Check that when you click on the company logo, the entire logo turns to the same light purple color and you either
+    * On the top-left of the page, check that you see the company logo, 'B&B' with the first 'B' and '&' colored in white (blanchealmond) and
+    the second 'B' colored in light purple (#b288ca)
+    * Check that when you click on the company logo, the entire logo turns to the same light purple color (#b288ca) and you either
     stay or end up on the Home page
     * On the top-right of the page, check that you see a navbar or a 'hamburger' 
     * Check that when you click on the navbar/'hamburger', it uncollapses and shows all 5 navigation links to 'Home', 'About', 'Services', 'Contact' and 'Booking',
-    all colored in 'blanchealmond', all vertically-aligned
+    all colored in white (blanchealmond), all vertically-aligned
     * Check that when you click on the navbar/'hamburger' again, it collapses and hides all 5 navigation links
-    * Check that when you click on one of the navigation links, it turns to the light purple color and it takes you to the corresponding page.
+    * Check that when you click on one of the navigation links, it turns to the light purple color (#b288ca) and it takes you to the corresponding page.
 
 ## Bugs discovered
 

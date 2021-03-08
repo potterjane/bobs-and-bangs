@@ -6,8 +6,8 @@
 With its blended mixture of masculine and feminine styles, it is a place where people from all walks of life are welcome to, for instance, get a haircut, 
 styling or why not a facial? 
 <br>
-From this brochure website, you can find images/videos that gives you a peek inside the hair salon/barbershop, read customer reviews, check out the price list of all the services they offer, 
-their contact information, and you can book an appointment.
+From this brochure website, you can book an appointment, find images/videos that gives you a peek inside the hair salon/barbershop, read customer reviews, check out the price list of all the services they offer, 
+and find their contact information.
 <br>
 
 Check out the Bobs & Bangs website [here](https://potterjane.github.io/bobs-and-bangs/)!
@@ -114,9 +114,9 @@ social links to Facebook, Instagram, Youtube and LinkedIn. It also contains the 
     2. The About page is the second page on the navigation bar. Users click here when they want to read more about who is behind the company and what their values are. Users will also find an 
     image carousel that gives them an insight on how it looks inside the hair salon/barbershop. On larger desktop screens, the image carousel is floating on the right, next to the paragraphs. 
     On smaller desktop screens or on larger tablet screens, the paragraphs wrap around the image carousel. On mobile screens, the image carousel is placed under the paragraphs.
-    3. The Services page is the third page on the navigation bar. Users click here when they want to know what services the company offers and to what price. These are listed in a table.
+    3. The Services page is the third page on the navigation bar. Users click here when they want to know what services the company offers and to what price. These are listed in tables.
     They can also find videos with controls but muted and on loop. The videos show the faces behind the people who perform the services. On desktop and tablet screens, the videos are floating 
-    on the right, next to the tables. On mobile screens, the videos are placed right under each table, respectively.
+    on the right, next to the tables. On mobile screens, the videos are replaced with images of the same people and placed right under each table, respectively.
     4. The Contact page is the fourth page on the navigation bar. Users click here when they want to see all the numerous communication channels that the company offers. 
     The following is structured on desktop and tablet screens: On the top-left, they find the e-mail address for job seekers. On the top-right, they find information om what to do when they 
     want to rebook/cancel an appointment. Under that, they find a contact form as an alternative option to contact the company and right under that, they find an embedded Google map that 
@@ -146,7 +146,7 @@ and most of the paragraph elements because the light purple colour represents th
 This element is used to inform the user's that the company currently has a discount offer and the colours make the element stand out from the rest of the website. 
 It also makes the user's focus drawn straight to the discount offer.
 - To meet the accessibility guideline's contrast ratio, a darker purple colour (#24152c) is used for the button's background colour to contrast the white ('white') foreground text colour. 
-When the button is hovered, the colours switches places, i.e. the white ('white') colour is used for the button's background colour to contract the darker purple colour (#24152c) foreground 
+When the button is hovered, the colours switches places, i.e. the white ('white') colour is used for the button's background colour to contrast the darker purple colour (#24152c) foreground 
 text colour.
 
 **Icons**
@@ -225,7 +225,7 @@ For comparison, screenshots of the website on different screen sizes were collec
 </div>
 
 5. **Price list for services**
-    - The services and their prices are listed on tables.
+    - The services and their prices are listed in tables.
     - The table feature gives users an easy and structured view of all of the prices and services.
     - Alongside each table is a video on desktop and larger tablet screens or an image on mobile screens.
     - The images provides users the faces behind the people performing the services listed on the tables.
@@ -287,8 +287,8 @@ For comparison, screenshots of the website on different screen sizes were collec
 ## Technologies Used
 
 **This project used:**
-- Primarily HTML and CSS programming languages. Javascript was used for Bootstrap's carousel.
-- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)'s CSS and Javascript library, version 5.0.
+- Primarily HTML and CSS programming languages. 
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)'s CSS and Javascript library, version 5.0. Javascript was used for Bootstrap's carousel and for the collapsed navbar('hamburger').
 - [Google Fonts](https://fonts.google.com/) to style the website's fonts.
 - [Font Awesome](https://fontawesome.com/)'s free kit of icons.
 - [Pexels](https://www.pexels.com/) for free stock photos & videos.
