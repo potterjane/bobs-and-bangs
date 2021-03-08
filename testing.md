@@ -124,7 +124,7 @@ All of the above points make the website stand out and attract users that are po
 
 ### Testing on desktop screens
 Several tests were done on a smaller laptop screen and a bigger stationary computer screen and on the following browsers: Brave, Chrome, Edge, Firefox and Opera.
-[Here](https://github.com/potterjane/bobs-and-bangs/blob/5eb7a1d10e1bb926aced2c94c7a93cd9cace38d0/wireframes/bb-website-desktop.pdf) you can find all of the screenshots of the website on a desktop screen (Macbook laptop). These screenshots were collected using [Balsamiq](https://balsamiq.com/). You can compare the desktop screenshots 
+[Here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-desktop.pdf) you can find all of the screenshots of the website on a desktop screen (Macbook laptop). These screenshots were collected using [Balsamiq](https://balsamiq.com/). You can compare the desktop screenshots 
 with the [second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf) of the wireframes.
 
 1. **Home page**
@@ -145,7 +145,8 @@ with the [second and final version](https://github.com/potterjane/bobs-and-bangs
 
 ### Testing on mobile screens
 Several tests were done on a Huawei mobile screen and an iPhone 6 mobile screen and on the following browsers: Chrome, Safari and via Facebook Messenger.
-[Here] you can find all of the screenshots of the website on Chrome DevTools' tablet (iPad) and mobile screen (iPhone X). You can compare the mobile screenshots 
+You can find all of the screenshots of the website on Chrome DevTools' tablet (iPad) [here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-tablet.pdf) 
+and for mobile screen (iPhone X) [here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-mobile.pdf). You can compare the mobile screenshots 
 with the [second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf) of the wireframes.
 
 ## Bugs discovered
