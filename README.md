@@ -172,7 +172,12 @@ The second version of the mobile and desktop mockup was made when the project wa
 
 - [First version](https://github.com/potterjane/bobs-and-bangs/blob/29beb82abe6f7bced87dd899abb743d32003d710/wireframes/bb-wireframes-version-1.pdf)
 - [Second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf)
- 
+
+For comparison, screenshots of the website on different screen sizes were collected also by using [Balsamiq](https://balsamiq.com/). 
+- Screenshots from a desktop screen (Macbook laptop) can be found [here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-desktop.pdf).
+- Screenshots from a tablet screen (iPad) can be found [here](https://github.com/potterjane/bobs-and-bangs/blob/ae58108bda48509f1f9123347b45449c4a192631/wireframes/bb-website-tablet.pdf).
+- Screenshots from a mobile screen (iPhone X) can be found [here](https://github.com/potterjane/bobs-and-bangs/blob/ae58108bda48509f1f9123347b45449c4a192631/wireframes/bb-website-mobile.pdf). 
+
 ### Existing Features
 
 1. **Booking modal**
