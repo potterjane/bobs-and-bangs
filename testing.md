@@ -6,7 +6,10 @@
 
 ## Table of Contents
 
-1. [**Validation services**](#validation-services)
+1. [**Automated Testing**](#automated-testing)
+    - [**Validation services**](#validation-services)
+    - [**Accessibility services**](#accessibilty-services)
+    - [**Other Evaluation services via Lighthouse**](#other-evaluation-services-via-lighthouse)
 2. [**User Stories Testing**](#user-stories-testing)
 3. [**Manual Testing**](#manual-testing)
     - [**Testing on desktop screens**](#testing-on-desktop-screens)
@@ -16,10 +19,40 @@
     - [**Unsolved bugs**](#unsolved-bugs)
 5. [**Further Testing**](#further-testing)
 
-## Validation services
-The following validation services were used to check the validity of the website code.
-- [W3C Markup Validation]( https://validator.w3.org/) was used to validate HTML.
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
+## Automated Testing
+
+### Validation services
+- [W3C Markup Validation]( https://validator.w3.org/) was used to validate all the HTML pages (home, about, services, contact, booking).
+No errors or warnings to show on any of the HTML pages.
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS. 
+No errors were found, however there were some warnings. 
+This [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error)
+post explained that the warning, 'Imported style sheets are not checked in direct input and file upload modes'
+meant that it did not validate the imported style sheet on line 1. In other words, not actually a warning, just information.
+The other warnings were related to 'webkit', 'moz' and 'o' property. 
+However, this developer did not remove these properties because it helps support browser compatibility efforts. 
+
+<div align="center"><h4>Results from CSS validator</h4>
+<img src="screenshots/css-validator-results.png" alt="Screenshot: Results from CSS validator" >
+</div>
+
+### Accessibility services
+- [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was used to
+evaluate the accessibilty on all of the website's page in incognito mode, as recommended (see screenshot below). 
+The report generated an Accessibility rate of 100 out of 100.
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was also used to evaluate the accessibilty
+on all of the website's pages in incognito mode. No errors were detected.
+
+<div align="center"><h4>Lighthouse error outside incognito mode</h4>
+<img src="screenshots/incognito-lighthouse.png" alt="Screenshot: Lighthouse error outside incognito mode" >
+</div>
+
+### Other Evaluation services via Lighthouse
+- [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was also used
+to evaluate performance, best practices and SEO on all of the website's pages in incognito mode.
+The report generated a Performance rate an average of 96 out of 100.
+The report generated a Best Practices rate of 100 out of 100.
+The report generated a SEO rate of 100 out of 100.
 
 ## User Stories Testing
 
@@ -145,5 +178,8 @@ The following validation services were used to check the validity of the website
 
 ## Further testing
 
-- This developer asked friends and family to test out the website on their devices to see if there were any 
+- Used Chrome DevTools repeatedly throughout the project to test the website on all the different
+devices and orientations available in the built-in tool.
+- Tested out the website on different computer/laptop screen sizes and also on developer's iPhone 6.
+- Asked friends and family to test out the website on their devices to see if there were any 
 further issues found.
