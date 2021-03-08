@@ -114,7 +114,7 @@ When user lands on the first page, they only need to make one click to either ac
     - An background image of brush, scissors and razors on a wooden table is added to the hero section on the Home page. This informs the users of the hair salon's/barbershop's
     rustic aesthetic and what industry this website is related to.
     - 6 different images are added to a Bootstrap carousel to create a sense of movement but also to avoid clutter on the About page.
-    - An additional 2 different images are shown on the Service page on smaller screens. On bigger screens, there are instead 2 different videos that users can control.
+    - An additional 2 different images are shown on the Services page on smaller screens. On bigger screens, there are instead 2 different videos that users can control.
     When user presses play, the video is played on mute and on a loop until the user presses pause.
 
 All of the above-mentioned images and videos are sourced from one and the same user called [cottonbro](https://www.pexels.com/@cottonbro)'s [Pexels](https://www.pexels.com/) free library.
@@ -154,8 +154,8 @@ This developer followed these steps:
     * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
     * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
     * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
-    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
-    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements' field, filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is also expected and correct in this project.
 
 2. Booking form on Home page
     * Go to the Home page
@@ -167,8 +167,8 @@ This developer followed these steps:
     * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
     * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
     * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
-    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
-    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements' field, filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is also expected and correct in this project.
 
 3. Review carousel on Home page
     * Go to the Home page and scroll down to the review carousel
@@ -188,7 +188,7 @@ This developer followed these steps:
     * Submit the form without filling any of the fields and verify that an error message about the required fields appears
     * Submit the form with all fields, except the 'Message' field, filled in and verify that an error message about the required fields appears
     * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
-    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Send' button. This action is expected and correct in this project.
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears' when clicking the 'Send' button. This action is expected and correct in this project.
 
 6. Links on Contact page
     * Go to the Contact page
@@ -237,8 +237,8 @@ This developer followed these steps:
     * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
     * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
     * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
-    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
-    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements' field, filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is also expected and correct in this project.
 
 2. Booking form on Home page
     * Go to the Home page
@@ -250,28 +250,28 @@ This developer followed these steps:
     * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
     * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
     * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
-    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
-    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements' field, filled in with valid inputs and verify that the form 'clears' when clicking the 'Submit' button. This action is also expected and correct in this project.
 
 3. Review carousel on Home page
     * Go to the Home page and scroll down to the review carousel
     * Check that the reviews are cycling through automatically
-    * Check that when you hold down the mouse button over a review, it stops cycling through
+    * Check that when you hold down over a review, it stops cycling through
     * Check that when you click on an indicator below the carousel, it takes you to the corresponding review
-    * Check that when you move your mouse away from the reviews, they are cycling through again automatically
+    * Check that when you move away from the reviews, they are cycling through again automatically
 
 4. Image carousel on About page
     * Go to the About page
     * Check that the images are cycling through automatically
-    * Check that when you hold down the mouse button over an image, it stops cycling through
-    * Check that when you move your mouse away from the images, they are cycling through again automatically
+    * Check that when you hold down over an image, it stops cycling through
+    * Check that when you move away from the images, they are cycling through again automatically
 
 5. Contact form on Contact page
     * Go to the Contact page
     * Submit the form without filling any of the fields and verify that an error message about the required fields appears
     * Submit the form with all fields, except the 'Message' field, filled in and verify that an error message about the required fields appears
     * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
-    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Send' button. This action is expected and correct in this project.
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears' when clicking the 'Send' button. This action is expected and correct in this project.
 
 6. Links on Contact page
     * Go to the Contact page
@@ -493,7 +493,7 @@ it was suggested to use the ```source``` element as child of the ```video```
 Converted videos from .mp4 to .ogg, .ogv, .webm and .flv and added the videos and its corresponding ```type``` attribute in the ```video``` element, in the order according to this
 [StackOverflow](https://stackoverflow.com/questions/13360830/html5-video-only-works-in-ie-the-other-browsers-shows-the-black-screen) post. This did not solve the issue.
 
-Got in touch with Code Institute tutor, Igor. He told the developer to add ```playsinline``` attribute to the ```video``` element, as suggested in this 
+Got in touch with Code Institute tutor, Igor. He told this developer to add ```playsinline``` attribute to the ```video``` element, as suggested in this 
 [StackOverflow](https://stackoverflow.com/questions/38893692/html-video-not-working-on-mobile) post. This did not solve the issue. 
 Igor then suggested to validate all of the code on the services.html via the W3C validator and then try again. This did not solve the issue either.
 
@@ -515,7 +515,7 @@ Since the issue was not solved, this developer replaced the videos with images, 
 
     In the booking form, there is a datepicker where user is required to choose a date when booking an appointment.
     This developer wanted to be able to disable past dates but also dates that fall on Sundays to match the company's opening hours. 
-    However, according to this [StackOverflow](https://stackoverflow.com/questions/17182544/disable-certain-dates-from-html5-datepicker) post, this cannot be done with JavaScript.
+    However, according to this [StackOverflow](https://stackoverflow.com/questions/17182544/disable-certain-dates-from-html5-datepicker) post, this cannot be done without JavaScript.
 
 ## Further testing
 
