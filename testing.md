@@ -23,9 +23,11 @@
 
 ### Validation services
 - [W3C Markup Validation]( https://validator.w3.org/) was used to validate all the HTML pages (home, about, services, contact, booking).
-No errors or warnings to show on any of the HTML pages.
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS. 
-No errors were found, however there were some warnings. 
+Copied all the code from the html page, pasted it in the field under 'Validate by direct input' and then clicked on the 'Check' button.
+**No errors or warnings to show on any of the HTML pages.**
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS. Copied all the code from the css page, pasted 
+it in the field under 'By direct input' and then clicked on the 'Check' button.
+**No errors were found, however there were some warnings.** 
 This [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error)
 post explained that the warning, 'Imported style sheets are not checked in direct input and file upload modes'
 meant that it did not validate the imported style sheet on line 1. In other words, not actually a warning, just information.
@@ -38,10 +40,15 @@ However, this developer did not remove these properties because it helps support
 
 ### Accessibility services
 - [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was used to
-evaluate the accessibilty on all of the website's page in incognito mode, as recommended (see screenshot below). 
-The report generated an Accessibility rate of 100 out of 100.
+evaluate the accessibilty on all of the website's page in incognito mode, as recommended (see screenshot below).
+In order to run a Lighthouse report, open Google Chrome, go to the URL for [Bobs & Bangs](https://potterjane.github.io/bobs-and-bangs/) (You can audit any URL on the web)
+and then open Chrome DevTools. Change from the Elements tab to the Lighthouse tab (You might need to click on 'right arrows' icon to access this tab). Choose at least one category and a device
+and then click on 'Generate report'.
+**The report generated an Accessibility rate of 100 out of 100.**
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was also used to evaluate the accessibilty
-on all of the website's pages in incognito mode. No errors were detected.
+on all of the website's pages in incognito mode. You simply need to write the URL for [Bobs & Bangs](https://potterjane.github.io/bobs-and-bangs/) and then press 'Enter'
+to get the results.
+**The results were no errors were detected.**
 
 <div align="center"><h4>Lighthouse error outside incognito mode</h4>
 <img src="screenshots/incognito-lighthouse.png" alt="Screenshot: Lighthouse error outside incognito mode" >
@@ -50,9 +57,9 @@ on all of the website's pages in incognito mode. No errors were detected.
 ### Other Evaluation services via Lighthouse
 - [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was also used
 to evaluate performance, best practices and SEO on all of the website's pages in incognito mode.
-The report generated a Performance rate an average of 96 out of 100.
-The report generated a Best Practices rate of 100 out of 100.
-The report generated a SEO rate of 100 out of 100.
+**The report generated a Performance rate an average of 96 out of 100.**
+**The report generated a Best Practices rate of 100 out of 100.**
+**The report generated a SEO rate of 100 out of 100.**
 
 ## User Stories Testing
 In this section, this developer manually tests all the user stories described on the [README](README.md)
@@ -117,9 +124,29 @@ All of the above points make the website stand out and attract users that are po
 
 ### Testing on desktop screens
 Several tests were done on a smaller laptop screen and a bigger stationary computer screen and on the following browsers: Brave, Chrome, Edge, Firefox and Opera.
+[Here](https://github.com/potterjane/bobs-and-bangs/blob/5eb7a1d10e1bb926aced2c94c7a93cd9cace38d0/wireframes/bb-website-desktop.pdf) you can find all of the screenshots of the website on a desktop screen (Macbook laptop). These screenshots were collected using [Balsamiq](https://balsamiq.com/). You can compare the desktop screenshots 
+with the [second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf) of the wireframes.
+
+1. **Home page**
+    - Clicked on the 'B&B' logo on the top-left of the page to check that it does not move user to a different page.
+    - Clicked on all of the navigation links to check that it
+
+2. **About page**
+    - 
+
+3. **Services page**
+    - 
+
+4. **Contact page**
+    - 
+
+5. **Booking page**
+    - 
 
 ### Testing on mobile screens
 Several tests were done on a Huawei mobile screen and an iPhone 6 mobile screen and on the following browsers: Chrome, Safari and via Facebook Messenger.
+[Here] you can find all of the screenshots of the website on Chrome DevTools' tablet (iPad) and mobile screen (iPhone X). You can compare the mobile screenshots 
+with the [second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf) of the wireframes.
 
 ## Bugs discovered
 
