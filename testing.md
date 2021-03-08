@@ -193,6 +193,17 @@ This developer followed these steps:
     * Check that when you press play, the videos remain muted and is on a loop until you press pause
     * Check that you cannot unmute the videos
 
+10. Navigation
+    * Go to any page
+    * On the top-left of the page, check that you see the company logo, 'B&B' with the first 'B' and '&' colored in 'blanchealmond' and
+    the second 'B' colored in light purple
+    * Check that when you hover over the company logo, the entire logo turns to the same light purple color
+    * Check that when you click on the company logo, you stay or end up on the Home page
+    * On the top-right of the page, check that you see all 5 navigation links to 'Home', 'About', 'Services', 'Contact' and 'Booking',
+    all colored in 'blanchealmond' and all horizontally-aligned.
+    * Check that when you hover over one of the navigation links, it turns to the light purple color.
+    * Check that when you click on one of the navigation links, it takes you to the corresponding page.
+
 ### Testing on mobile screens
 Several tests were done on a Huawei mobile screen and an iPhone 6 mobile screen and on the following browsers: Chrome, Safari and via Facebook Messenger.
 You can find all of the screenshots of the website on Chrome DevTools' tablet (iPad) [here](https://github.com/potterjane/bobs-and-bangs/blob/ae58108bda48509f1f9123347b45449c4a192631/wireframes/bb-website-tablet.pdf) 
@@ -261,6 +272,18 @@ This developer followed these steps:
 9. Images on Services page
     * Go to the Services page
     * Check that the images are displayed and there are no broken links
+
+10. Navigation
+    * Go to any page
+    * On the top-left of the page, check that you see the company logo, 'B&B' with the first 'B' and '&' colored in 'blanchealmond' and
+    the second 'B' colored in light purple
+    * Check that when you click on the company logo, the entire logo turns to the same light purple color and you either
+    stay or end up on the Home page
+    * On the top-right of the page, check that you see a navbar or a 'hamburger' 
+    * Check that when you click on the navbar/'hamburger', it uncollapses and shows all 5 navigation links to 'Home', 'About', 'Services', 'Contact' and 'Booking',
+    all colored in 'blanchealmond', all vertically-aligned
+    * Check that when you click on the navbar/'hamburger' again, it collapses and hides all 5 navigation links
+    * Check that when you click on one of the navigation links, it turns to the light purple color and it takes you to the corresponding page.
 
 ## Bugs discovered
 
