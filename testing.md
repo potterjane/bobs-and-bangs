@@ -127,27 +127,140 @@ Several tests were done on a smaller laptop screen and a bigger stationary compu
 [Here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-desktop.pdf) you can find all of the screenshots of the website on a desktop screen (Macbook laptop). These screenshots were collected using [Balsamiq](https://balsamiq.com/). You can compare the desktop screenshots 
 with the [second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf) of the wireframes.
 
-1. **Home page**
-    - Clicked on the 'B&B' logo on the top-left of the page to check that it does not move user to a different page.
-    - Clicked on all of the navigation links to check that it
+This developer followed these steps:
 
-2. **About page**
-    - 
+1. Booking form on Booking page
+    * Go to the Booking page
+    * Submit the form without filling any of the fields and verify that an error message about the required fields appears
+    * Submit the form with letters or symbols in the 'Phone number' field and verify that an error message about invalid phone number appears
+    * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
+    * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
+    * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
 
-3. **Services page**
-    - 
+2. Booking form on Home page
+    * Go to the Home page
+    * Click on the 'Book Now' modal button
+    * Check that the form appears in the center of the page and the rest of the Home page becomes a backdrop
+    * Check that you can click anywhere on the backdrop to exit the form
+    * Submit the form without filling any of the fields and verify that an error message about the required fields appears
+    * Submit the form with letters or symbols in the 'Phone number' field and verify that an error message about invalid phone number appears
+    * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
+    * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
+    * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
 
-4. **Contact page**
-    - 
+3. Review carousel on Home page
+    * Go to the Home page and scroll down to the review carousel
+    * Check that the reviews are cycling through automatically
+    * Check that when you hold down the mouse button over a review, it stops cycling through
+    * Check that when you click on an indicator below the carousel, it takes you to the corresponding review
+    * Check that when you move your mouse away from the reviews, they are cycling through again automatically
 
-5. **Booking page**
-    - 
+4. Image carousel on About page
+    * Go to the About page
+    * Check that the images are cycling through automatically
+    * Check that when you hold down the mouse button over an image, it stops cycling through
+    * Check that when you move your mouse away from the images, they are cycling through again automatically
+
+5. Contact form on Contact page
+    * Go to the Contact page
+    * Submit the form without filling any of the fields and verify that an error message about the required fields appears
+    * Submit the form with all fields, except the 'Message' field, filled in and verify that an error message about the required fields appears
+    * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Send' button. This action is expected and correct in this project.
+
+6. Links on Contact page
+    * Go to the Contact page
+    * Check that all the links either opens an external application or opens a new tab
+
+7. Links on footer section
+    * Go to any page and scroll down to the footer section
+    * Check that all the links either opens an external application or opens a new tab
+
+8. Embedded Google Maps
+    * Go to the Contact page
+    * Check that the embedded Google Maps is displayed and shows the correct address
+    * Check that you can zoom in and out of the Maps
+    * Check that you can click on 'View larger map' to open Google Maps in a new tab
+
+9. Videos on Services page
+    * Go to the Services page
+    * Check that the videos are displayed and there are no broken links
+    * Check that the controls are working by pressing the play/pause button, volume, fullscreen toggle, etc
+    * Check that when you press play, the videos remain muted and is on a loop until you press pause
+    * Check that you cannot unmute the videos
 
 ### Testing on mobile screens
 Several tests were done on a Huawei mobile screen and an iPhone 6 mobile screen and on the following browsers: Chrome, Safari and via Facebook Messenger.
-You can find all of the screenshots of the website on Chrome DevTools' tablet (iPad) [here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-tablet.pdf) 
-and for mobile screen (iPhone X) [here](https://github.com/potterjane/bobs-and-bangs/blob/f9d6725e4f09fd3ce8d388248e187dec21b27512/wireframes/bb-website-mobile.pdf). You can compare the mobile screenshots 
+You can find all of the screenshots of the website on Chrome DevTools' tablet (iPad) [here](https://github.com/potterjane/bobs-and-bangs/blob/ae58108bda48509f1f9123347b45449c4a192631/wireframes/bb-website-tablet.pdf) 
+and for mobile screen (iPhone X) [here](https://github.com/potterjane/bobs-and-bangs/blob/ae58108bda48509f1f9123347b45449c4a192631/wireframes/bb-website-mobile.pdf). You can compare the mobile screenshots 
 with the [second and final version](https://github.com/potterjane/bobs-and-bangs/blob/f1370748e2ef25d35dbc62a0b01a8b6aca7fa1b8/wireframes/bb-wireframes-version-2.pdf) of the wireframes.
+
+This developer followed these steps:
+
+1. Booking form on Booking page
+    * Go to the Booking page
+    * Submit the form without filling any of the fields and verify that an error message about the required fields appears
+    * Submit the form with letters or symbols in the 'Phone number' field and verify that an error message about invalid phone number appears
+    * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
+    * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
+    * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
+
+2. Booking form on Home page
+    * Go to the Home page
+    * Click on the 'Book Now' modal button
+    * Check that the form appears in the center of the page and the rest of the Home page becomes a backdrop
+    * Check that you can click anywhere on the backdrop to exit the form
+    * Submit the form without filling any of the fields and verify that an error message about the required fields appears
+    * Submit the form with letters or symbols in the 'Phone number' field and verify that an error message about invalid phone number appears
+    * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
+    * Submit the form without choosing a date in the 'Choose date' field and verify that an error message about the required fields appears
+    * Submit the form without choosing a service in the 'Choose service' field and verify that an error message about the required fields appears
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is expected and correct in this project.
+    * Submit the form with all fields, except the 'Specific requirements', field filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Submit' button. This action is also expected and correct in this project.
+
+3. Review carousel on Home page
+    * Go to the Home page and scroll down to the review carousel
+    * Check that the reviews are cycling through automatically
+    * Check that when you hold down the mouse button over a review, it stops cycling through
+    * Check that when you click on an indicator below the carousel, it takes you to the corresponding review
+    * Check that when you move your mouse away from the reviews, they are cycling through again automatically
+
+4. Image carousel on About page
+    * Go to the About page
+    * Check that the images are cycling through automatically
+    * Check that when you hold down the mouse button over an image, it stops cycling through
+    * Check that when you move your mouse away from the images, they are cycling through again automatically
+
+5. Contact form on Contact page
+    * Go to the Contact page
+    * Submit the form without filling any of the fields and verify that an error message about the required fields appears
+    * Submit the form with all fields, except the 'Message' field, filled in and verify that an error message about the required fields appears
+    * Submit the form with just letters and no '@' symbol or with letters before but not after the '@' symbol in the 'E-mail address' field and verify that an error message about invalid e-mail address appears
+    * Submit the form with all fields filled in with valid inputs and verify that the form 'clears empty' when clicking the 'Send' button. This action is expected and correct in this project.
+
+6. Links on Contact page
+    * Go to the Contact page
+    * Check that all the links either opens an external application or opens a new tab
+
+7. Links on footer section
+    * Go to any page and scroll down to the footer section
+    * Check that all the links either opens an external application or opens a new tab
+
+8. Embedded Google Maps
+    * Go to the Contact page
+    * Check that the embedded Google Maps is displayed and shows the correct address
+    * Check that you can zoom in and out of the Maps
+    * Check that you can click on 'View larger map' to open Google Maps in a new tab
+
+9. Images on Services page
+    * Go to the Services page
+    * Check that the images are displayed and there are no broken links
 
 ## Bugs discovered
 
