@@ -29,14 +29,32 @@ Copied all the code from the html page, pasted it in the field under 'Validate b
 it in the field under 'By direct input' and then clicked on the 'Check' button.
 **No errors were found, however there were some warnings.** 
 This [StackOverflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error)
-post explained that the warning, 'Imported style sheets are not checked in direct input and file upload modes'
-meant that it did not validate the imported style sheet on line 1. In other words, not actually a warning, just information.
-The other warnings were related to 'webkit', 'moz' and 'o' property. 
-However, this developer did not remove these properties because it helps support browser compatibility efforts. 
-
-<div align="center"><h4>Results from CSS validator</h4>
-<img src="screenshots/css-validator-results.png" alt="Screenshot: Results from CSS validator" >
-</div>
+post explained that the warning on line 1, 'Imported style sheets are not checked in direct input and file upload modes',
+meant that it did not validate the imported style sheet. In other words, not actually a warning, just information.
+The other warnings were related to 'webkit', 'moz' and 'o' property. However, this developer did not remove these properties because it helps support browser compatibility efforts. 
+```
+Warnings (19)
+URI : TextArea
+1		Imported style sheets are not checked in direct input and file upload modes
+186		-webkit-background-size is an unknown vendor extension
+187		-moz-background-size is an unknown vendor extension
+188		-o-background-size is an unknown vendor extension
+1025	::-webkit-outer-spin-button is an unknown vendor extended pseudo-element
+1026	::-webkit-inner-spin-button is an unknown vendor extended pseudo-element
+1027	-webkit-appearance is an unknown vendor extension
+1033	-moz-appearance is an unknown vendor extension
+1038	:-webkit-autofill is an unknown vendor extended pseudo-class
+1039	:-webkit-autofill is an unknown vendor extended pseudo-class
+1040	:-webkit-autofill is an unknown vendor extended pseudo-class
+1041	:-webkit-autofill is an unknown vendor extended pseudo-class
+1042	:-webkit-autofill is an unknown vendor extended pseudo-class
+1043	:-webkit-autofill is an unknown vendor extended pseudo-class
+1044	:-webkit-autofill is an unknown vendor extended pseudo-class
+1045	:-webkit-autofill is an unknown vendor extended pseudo-class
+1046	:-webkit-autofill is an unknown vendor extended pseudo-class
+1048	-webkit-text-fill-color is an unknown vendor extension
+1049	-webkit-box-shadow is an unknown vendor extension
+```
 
 ### Accessibility services
 - [Lighthouse in ChromeDev Tools](https://developers.google.com/web/tools/lighthouse#devtools) was used to
@@ -288,7 +306,7 @@ This developer followed these steps:
 ## Bugs discovered
 
 ### Solved bugs
-1. **Jumping behaviour of the uncollapsed navbar**
+1. **Jumping behaviour on the uncollapsed navbar**
 
     When collapsing and uncollapsing the navbar for mobile and tablet screens, the entire ul presented a 'jump' behaviour.
 
@@ -298,32 +316,29 @@ This developer followed these steps:
     the ```class="nav-container-collapse"``` was moved from the ```<ul>``` element to the grandparent ```<div>``` element.
 
     ```html
-    <div class="collapse nav-container-collapse" id="navbarToggleExternalContent">
-                    <div class="p-4">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="index.html"><h5>home</h5></a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="about.html"><h5>about</h5></a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="services.html"><h5>services</h5></a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="contact.html"><h5>contact</h5></a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="booking.html"><h5>booking</h5></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+        <div class="collapse nav-container-collapse" id="navbarToggleExternalContent">
+            <div class="p-4">
+                <nav>
+                    <ul>
+                        <li class="row"> 
+                            <a class="col-12" href="index.html"><p>home</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="about.html"><p>about</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="services.html"><p>services</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="contact.html"><p>contact</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="booking.html"><p>booking</p></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     ```
 
 2. **Jumping behaviour of the customer review carousel**
@@ -365,7 +380,7 @@ This developer followed these steps:
     
     **How this developer fixed it:**
 
-    Similaryly to the previous bug fix, in order for the carousel to be fully responsive and not present a 'height jump' 
+    Similarly to the previous bug fix, in order for the carousel to be fully responsive and not present a 'height jump' 
     behaviour on any screen sizes, ```min-height``` and ```max-height``` was set to the ```.carousel-inner``` for the 
     ```@media screen``` that presented this bug.
 
@@ -382,6 +397,64 @@ This developer followed these steps:
         }
     ```
 
+4. **Incorrecly aligned navbar links on tablet and mobile screens**
+
+    When collapsing and uncollapsing the navbar for mobile and tablet screens, the navigation links were aligned horizontally instead of vertically.
+
+    **How this developer fixed it:**
+
+    Added Bootstraps's ```class="row"``` to the ```li``` element and Bootstrap's ```class="col-12"``` to the child ```a``` element.
+
+    ```html
+        <div class="collapse nav-container-collapse" id="navbarToggleExternalContent">
+            <div class="p-4">
+                <nav>
+                    <ul>
+                        <li class="row"> 
+                            <a class="col-12" href="index.html"><p>home</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="about.html"><p>about</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="services.html"><p>services</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="contact.html"><p>contact</p></a>
+                        </li>
+                        <li class="row"> 
+                            <a class="col-12" href="booking.html"><p>booking</p></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    ```
+
+5. **Visible spinners/arrows on the Phone number field**
+
+    The spinners/arrows in the 'Phone number' field in the booking forms were visible. 
+
+    **How this developer fixed it:**
+    
+    With the help from this [W3Schools](https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp) post, the spinners/arrows were removed by adding the following code:
+
+```css
+    /* Removed the up and down spinner from the 'number' input field, code taken from W3Schools */
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    /* /Removed the up and down spinner from the 'number' input field, code taken from W3Schools */
+```
+
 ### Unsolved bugs
 
 1. **Adjust the font size of all the 'Choose service' options**
@@ -389,15 +462,60 @@ This developer followed these steps:
     Regarding the ```<form>``` for the Booking page and for the modal in the Home page, this developer has not found 
     a solution to adjust the font size of all the 'Choose service' options for smaller screens.
 
+<div align="center"><h4>Incorrect 'Choose service' font size</h4>
+<img src="screenshots/service-options-form.png" alt="Screenshot: Incorrect 'Choose service' font size" >
+</div>
+
 2. **Position of the uncollapsed navbar differs between screen sizes**
 
-    Between ```@media screen and max-width``` of 615px - 1199px, the uncollapsed navbar floats near the center of the 
+    Between ```@media screen and max-width``` of 668px - 1199px, the uncollapsed navbar floats near the center of the 
     page instead of the right-hand side of the page right under the navbar icon. This developer has not found a solution 
     for this.
 
 <div align="center"><h4>Incorrect position of the uncollapsed navbar</h4>
 <img src="screenshots/position-navbar.png" alt="Screenshot: Incorrect position of uncollapsed navbar" >
 </div>
+
+3. **Videos not playing on mobile devices**
+
+    For some reason, the videos are not playing on any mobile devices. The video remains black when you press play. 
+
+<div align="center"><h4>Video not playing on mobile</h4>
+<img src="screenshots/video-not-playing.jpg" alt="Screenshot: Video not playing on mobile" >
+</div>
+
+
+Tried to solve this issue by adding ```type``` attribute in the ```video``` element.
+However, the W3C validator came back with an error stating that the ```type``` attribute is not accepted in the ```video``` element. With the help of this 
+[Stackoverflow](https://stackoverflow.com/questions/22365474/attribute-type-not-allowed-on-element-video-at-this-point-how-to-fix-this-error) post, 
+it was suggested to use the ```source``` element as child of the ```video``` element instead. However, this still did not solve the issue.
+
+Converted videos from .mp4 to .ogg, .ogv, .webm and .flv and added the videos and its corresponding ```type``` attribute in the ```video``` element, in the order according to this
+[StackOverflow](https://stackoverflow.com/questions/13360830/html5-video-only-works-in-ie-the-other-browsers-shows-the-black-screen) post. This did not solve the issue.
+
+Got in touch with Code Institute tutor, Igor. He told the developer to add ```playsinline``` attribute to the ```video``` element, as suggested in this 
+[StackOverflow](https://stackoverflow.com/questions/38893692/html-video-not-working-on-mobile) post. This did not solve the issue. 
+Igor then suggested to validate all of the code on the services.html via the W3C validator and then try again. This did not solve the issue either.
+
+```html
+    <div class="col-4 tilda-video">
+        <video playsinline controls muted loop>
+            <source src="assets/videos/tilda-video.mp4" type="video/mp4">
+            <source src="assets/videos/tilda-video.ogv" type="video/ogg">
+            <source src="assets/videos/tilda-video.webm" type="video/webm">
+            <source src="assets/videos/tilda-video.flv" type="video/x-flv">
+            Your browser does not support embedded videos.
+        </video>
+    </div>
+```
+
+Since the issue was not solved, this developer replaced the videos with images, just for mobile screens or smaller tablet screens.
+
+4. **Disable certain dates in the datepicker**
+
+    In the booking form, there is a datepicker where user is required to choose a date when booking an appointment.
+    This developer wanted to be able to disable past dates but also dates that fall on Sundays to match the company's opening hours. 
+    However, according to this [StackOverflow](https://stackoverflow.com/questions/17182544/disable-certain-dates-from-html5-datepicker) post, this cannot be done with JavaScript.
 
 ## Further testing
 
