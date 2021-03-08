@@ -364,6 +364,7 @@ and [forms](https://getbootstrap.com/docs/5.0/forms/overview/) were used.
 Special thanks to: 
 - Code Institute Mentor Mo for his time and for always offering his support and suggestions on what this developer needs to focus on in order to complete the project.
 - Boyfriend Fredrik, friends Alex and Emelie, sisters Marie and Erin and dad for testing the website and giving this developer both positive and constructive feedback.
+- [AJGreaves](https://github.com/AJGreaves) for inspiring this developer on how to structure and format this README page.
 
 #### Disclaimer
 The content of this website, including the images and videos used, are for educational purposes only.
